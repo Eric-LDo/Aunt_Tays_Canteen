@@ -1,6 +1,11 @@
 package model;
-
-public class Endereco {
+import com.sun.net.httpserver.HttpExchange;
+import com.sun.net.httpserver.HttpHandler;
+import com.sun.net.httpserver.HttpServer;
+import java.io.IOException;
+import java.net.InetSocketAddress;
+import java.util.ArrayList;
+public class Endereco{
     private String rua, bairro, cidade, estado, complemento;
     private int id, cep, numero;
     public Endereco(String rua, String bairro, String cidade, String estado, String complemento, int cep, int numero) {
@@ -12,10 +17,18 @@ public class Endereco {
         this.cep = cep;
         this.numero = numero;
     }
-    
     public Endereco(String rua) {
         this.rua = rua;
     }
+    public static void conectionFront(ArrayList<Endereco> lista) throws IOException{
+        HttpServer server = HttpServer.create(new InetSocketAddress("localhost", 80), 0);
+        server.createContext("/Endereco", new EnderecoHandler());
+        server.setExecutor(null); //
+        server.start();
+        EnderecoHandler send = new  EnderecoHandler();
+        send.concatEnderecos(lista);
+    }
+    
 
     public String getRua(){
         return this.rua;
@@ -67,8 +80,14 @@ public class Endereco {
     }
     @Override
     public String toString(){
-        return String.format("\"Enderecorua\":"  );
+        return String.format("\"Endereco\":rua"  );
     }
-
+    public void handle(HttpExchange t) throws IOException{
+        String response = "";
+        t.sendResponseHeaders(200,response.length());
+        t.getResponseBody().write(response.getBytes());
+        t.close();
+    }
     
 }
+
