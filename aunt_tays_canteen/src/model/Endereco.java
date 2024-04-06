@@ -1,6 +1,4 @@
 package model;
-import com.sun.net.httpserver.HttpExchange;
-import com.sun.net.httpserver.HttpHandler;
 import com.sun.net.httpserver.HttpServer;
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -21,8 +19,8 @@ public class Endereco{
         this.rua = rua;
     }
     public static void conectionFront(ArrayList<Endereco> lista) throws IOException{
-        HttpServer server = HttpServer.create(new InetSocketAddress("localhost", 80), 0);
-        server.createContext("/Endereco", new EnderecoHandler());
+        HttpServer server = HttpServer.create(new InetSocketAddress("localhost", 8001), 0);
+        server.createContext("/endereco", new EnderecoHandler());
         server.setExecutor(null); //
         server.start();
         EnderecoHandler send = new  EnderecoHandler();
@@ -82,12 +80,7 @@ public class Endereco{
     public String toString(){
         return String.format("\"Endereco\":rua"  );
     }
-    public void handle(HttpExchange t) throws IOException{
-        String response = "";
-        t.sendResponseHeaders(200,response.length());
-        t.getResponseBody().write(response.getBytes());
-        t.close();
-    }
+  
     
 }
 
