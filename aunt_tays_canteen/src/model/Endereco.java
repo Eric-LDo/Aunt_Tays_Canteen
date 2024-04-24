@@ -15,16 +15,20 @@ public class Endereco{
         this.cep = cep;
         this.numero = numero;
     }
+    @Override
+    public String toString(){
+    return String.format("{\"endereco\":{\"rua\": \"%s\"}}" ,this.rua  );
+    }
     public Endereco(String rua) {
         this.rua = rua;
     }
-    public static void conectionFront(ArrayList<Endereco> lista) throws IOException{
+    public void conectionFront(Endereco e) throws IOException{
+        EnderecoHandler.addEnderco(e);
         HttpServer server = HttpServer.create(new InetSocketAddress("localhost", 8001), 0);
         server.createContext("/endereco", new EnderecoHandler());
         server.setExecutor(null); //
         server.start();
-        EnderecoHandler send = new  EnderecoHandler();
-        send.concatEnderecos(lista);
+        
     }
     
 
@@ -75,10 +79,6 @@ public class Endereco{
     }
     public void setNumero(int numero) {
         this.numero = numero;
-    }
-    @Override
-    public String toString(){
-        return String.format("\"Endereco\":rua"  );
     }
   
     
