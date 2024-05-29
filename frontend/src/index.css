@@ -8,7 +8,11 @@
   color: black;
   /* font-family:'Monomaniac One'; */
 }
+
 body{
-  display:flex;
+  
+  flex-direction: column;
   background-color: #efefef;
+  width: 100vw;
+  height: 100vh;
 }

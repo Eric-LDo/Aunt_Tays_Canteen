@@ -3,10 +3,13 @@
   height: 100vh;
   background-image: url(../image/browniesFundo.jpg) ;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
 }
 .app::before{
   content: "";
   display: flex;
+  
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.322);

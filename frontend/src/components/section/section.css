@@ -1,8 +1,20 @@
 section{
     background-color: rgba(0, 0, 0, 0.651);
-    width: 70%;
-    height: 70%;
+    width: 80%;
+    height: auto;
     border-radius: 5px;
-    color: white;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+section h1,
+section p{
+    color: #efefef;
+    margin: 20px;
+}
+section h1{
+    font-size: 50px;
+}
+section p{
+    font-size: 30px;
 }

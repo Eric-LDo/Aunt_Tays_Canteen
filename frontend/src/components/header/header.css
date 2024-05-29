@@ -6,8 +6,8 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    position:fixed;
-
+    position: fixed;
+    z-index: 999;
 }
 
 header > div{
