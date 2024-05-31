@@ -1,0 +1,48 @@
+.telaLogin{
+    z-index: 999;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top:50% ;
+    left:50%;
+    transform: translate(-50%, -50%);
+    display: block;     
+    background-color: rgba(0, 0, 0, 0.795);
+
+}
+.telaLogin .form {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    background-color: var(--color-text);
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px var(--color-text);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.form h1{
+    text-align: center;
+}
+.form form{
+    text-align: center;
+}
+.form form label input{
+    margin: 20px 20px 20px 2px;
+    height: 25px;
+    border-radius: 5px;
+    padding: 5px;
+}
+#in1{
+    width: 200px;
+}
+#in2{
+    width: 180px;
+}
+.Closed{
+    position: relative;
+}

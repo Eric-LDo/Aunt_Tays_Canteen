@@ -1,0 +1,14 @@
+.buttonMenu{
+    padding:20px;
+    background-color: var(--color-main);
+    font-size: 30px;
+    font-weight: bolder;
+    color: var(--color-text);
+    margin: 50px;
+    padding: 20px;
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.767) ;
+    cursor: pointer;
+    text-shadow: 0px 0px 2px var(--color-text);  
+}

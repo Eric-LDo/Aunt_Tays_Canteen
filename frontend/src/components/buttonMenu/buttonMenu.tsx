@@ -1,9 +1,12 @@
-import './buttonMenu.css'
-function ButtonMain(){
+import './buttonMenu.css';
+interface Props{
+    buttonName:string;
+}
+function ButtonMenu({buttonName}:Props){
     return(
-        <button>
-
-        </button>
+        <button className='buttonMenu'>
+            {buttonName}
+        </button>   
     )
 }
-export default ButtonMain;
+export default ButtonMenu;

@@ -1,20 +1,33 @@
 section{
     background-color: rgba(0, 0, 0, 0.651);
     width: 80%;
-    height: auto;
+    height: max-content;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    z-index: 0;
+    margin: 40px;
 }
 section h1,
 section p{
     color: #efefef;
-    margin: 20px;
+    
 }
+
 section h1{
-    font-size: 50px;
+    text-align: center;
+    width: 80%;
+    font-size: 300%;  
+    border-bottom: 3px solid var(--color-text);
+    margin: 40px;
 }
+
 section p{
-    font-size: 30px;
+    
+    font-size: 200%;
+    
+    margin: 40px;
+
 }

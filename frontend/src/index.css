@@ -1,18 +1,21 @@
 :root{
   --color-main:#AA1E1E;
+  --color-text:#efefef;
 }
 
 *{
   padding: 0;
   margin: 0;
   color: black;
+  box-sizing: border-box;
   /* font-family:'Monomaniac One'; */
+  
 }
 
 body{
-  
   flex-direction: column;
-  background-color: #efefef;
+  background-image: url(../image/browniesFundo.jpg) ;
+  background-size: cover;
   width: 100vw;
   height: 100vh;
 }

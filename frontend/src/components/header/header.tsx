@@ -1,16 +1,19 @@
 import './header.css'
+import Config from './config/config'
+import Login from './login/login'
+import Bag from './bag/bag'
 interface Props{
     logoURL: string,
 }
 function Header({logoURL}:Props){
     return(
         <header>
-            <div className="img h1"><img src="../../../image/incons/config.png" alt="config"/></div>
+            <Config/>
             <div className="logo img h2"><img src={logoURL} alt="logo" /></div>
             <div className="img h3">
-                <img src="../../../image/incons/entrar.png" alt="entrar"/>
+                <Login/>
                 <img src="../../../image/incons/menu.png" alt="menu"/>
-                <img src="../../../image/incons/bag.png" alt="bag"/>
+                <Bag/>
             </div> 
         </header>
 
