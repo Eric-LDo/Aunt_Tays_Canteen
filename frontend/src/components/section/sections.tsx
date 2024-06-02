@@ -12,7 +12,7 @@ function Sections({titulo, texto}:Props){
                 <p>
                 {texto}
                 </p>
-                <ButtonMenu buttonName='Find Your Brownies'/>   
+                    <ButtonMenu buttonName='Find Your Brownies'/>
             </section> 
         </>
     )

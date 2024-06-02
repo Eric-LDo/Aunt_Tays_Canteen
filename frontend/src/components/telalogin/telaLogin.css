@@ -43,6 +43,10 @@
 #in2{
     width: 180px;
 }
-.Closed{
-    position: relative;
+.close{
+    position:absolute;
+    top:0;
+    right: 0;
+    margin: 10px;
+    cursor: pointer;
 }

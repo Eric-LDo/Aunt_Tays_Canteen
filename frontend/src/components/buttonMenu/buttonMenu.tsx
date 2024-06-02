@@ -4,9 +4,11 @@ interface Props{
 }
 function ButtonMenu({buttonName}:Props){
     return(
-        <button className='buttonMenu'>
-            {buttonName}
-        </button>   
+        
+            <button className='buttonMenu'>
+                {buttonName}
+            </button>
+          
     )
 }
 export default ButtonMenu;
