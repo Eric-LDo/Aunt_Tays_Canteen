@@ -1,5 +1,5 @@
 
-
+import './produtoMenu.css'
 
 export interface Props {
   nome:string,
@@ -10,15 +10,15 @@ export interface Props {
   id:number
 }
 
-export function produtoMenu({ nome, ingredientes, descricao, preco,imagem}: Props){
+export default function produtoMenu({ nome, ingredientes, descricao, preco,imagem}: Props){
   return(
     <div className="container">
-      <img src={imagem} alt="" />
+      <img className='produtoAmostra' src={imagem} alt="" />
       <div className="descricao">
         <h2>{nome}</h2>
         <p>{ingredientes}</p>
         <p>{descricao}</p>
-        <p>Valor:{preco}</p>
+        <p>Valor:{` R$ ${preco.toFixed(2)}`}</p>
       </div>
     </div>
   )

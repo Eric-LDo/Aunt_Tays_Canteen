@@ -1,3 +1,10 @@
 .mainMenu {
-  
+    
+    width: 80vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 140px;
+    background-color: var(--color-text);
+
 }

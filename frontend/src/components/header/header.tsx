@@ -8,7 +8,7 @@ interface Props{
 function Header({logoURL}:Props){
     return(
         <header>
-            <Config/>
+            <div className="img"><Config/></div>
             <div className="logo img h2"><img src={logoURL} alt="logo" /></div>
             <div className="img h3">
                 <Login/>

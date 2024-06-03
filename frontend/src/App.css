@@ -13,6 +13,6 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.322);
   position: absolute;
-  z-index: unset;
+  z-index: -1;
 }
 

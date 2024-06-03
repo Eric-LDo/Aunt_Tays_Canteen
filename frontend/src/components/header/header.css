@@ -20,7 +20,7 @@ header > div{
 }
 .logo img{
     height: 110%;
-    
+    width: 300px;
 }
 header > div > img{
     position: relative;

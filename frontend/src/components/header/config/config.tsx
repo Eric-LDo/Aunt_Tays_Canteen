@@ -1,3 +1,4 @@
+import "./config.css"
 function Config(){
     return (
         <div className="config">

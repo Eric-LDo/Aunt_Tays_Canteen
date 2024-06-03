@@ -1,8 +1,7 @@
-.pagehome{
+.menuPage{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
     background-image: url(../image/browniesFundo.jpg) ;
-    height: 100vh;
-    background-size: cover;
+    background-size: fixed;
 }
