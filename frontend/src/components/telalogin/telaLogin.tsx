@@ -25,7 +25,7 @@ return (
 <div className="telaLogin" style={{ display: isVisible ? 'block' : 'none' }}>
  
 <div className="form" >
-    <div className="close" onClick={toggleVisibility}><Closed /></div>
+    <div className="close" onClick={toggleVisibility}><Closed/></div>
     <form method="post" action="#" onSubmit={loginDeUsuario}>
         <h1>Log in</h1>
         <label htmlFor="email">
@@ -38,7 +38,9 @@ return (
             Password:<input type="password" name="password" id="in2" placeholder="Enter your password here" onChange={(e) => setPassword(e.target.value)}/>
         </label>
         <p>you don't have a <a href="#">registration</a></p>
-        <ButtonMenu buttonName={'Enter'}/>
+        <div onClick={toggleVisibility}>
+            <ButtonMenu buttonName={'Enter'}/>
+        </div>
     </form>
 </div>
 </div>

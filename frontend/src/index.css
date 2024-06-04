@@ -1,6 +1,7 @@
 :root{
   --color-main:#AA1E1E;
   --color-text:#efefef;
+  --box-shadow-default:1px 1px 5px rgba(0, 0, 0, 0.281);
 }
 
 *{

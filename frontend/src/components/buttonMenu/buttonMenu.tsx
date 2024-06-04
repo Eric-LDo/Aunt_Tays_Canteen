@@ -1,6 +1,7 @@
 import './buttonMenu.css';
 interface Props{
     buttonName:string;
+
 }
 function ButtonMenu({buttonName}:Props){
     return(
