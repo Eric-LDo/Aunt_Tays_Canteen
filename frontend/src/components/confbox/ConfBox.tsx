@@ -3,6 +3,7 @@ import ButtonMenu from '../buttonMenu/buttonMenu';
 import Closed from '../closed/closed';
 import './confBox.css';
 interface Props{
+    disp:boolean,
     nome:string,
     ingredientes:string,
     descricao:string,
@@ -11,17 +12,17 @@ interface Props{
     imagem:string
 }
 
-export default function ConfBox({nome,ingredientes,descricao,preco,imagem}:Props){
+export default function ConfBox({disp,nome,ingredientes,descricao,preco,imagem}:Props){
     
     const [isVisible, setIsVisible] = useState(true)
     
 
     const toggleVisibility = () => {
-        setIsVisible(!isVisible);
+        ((disp=isVisible) || isVisible)? setIsVisible(!isVisible):setIsVisible(disp);
     };
     return (
         
-        <div className="ConfBox" >
+        <div className="ConfBox" style={{display: isVisible? 'block': 'none'}}>
         <div className="descricao">
             <div onClick={toggleVisibility}><Closed/></div>
             <img src={imagem} alt="" />
@@ -30,7 +31,9 @@ export default function ConfBox({nome,ingredientes,descricao,preco,imagem}:Props
             <p>{descricao}</p>
             <p>Valor:{` R$ ${preco.toFixed(2)}`}</p>
             <input type="number" />
-            <ButtonMenu buttonName={'Confirmar'} />
+            <div className='button'>
+                <ButtonMenu buttonName={'Confirmar'} />
+            </div>
         </div>
         </div>
     )

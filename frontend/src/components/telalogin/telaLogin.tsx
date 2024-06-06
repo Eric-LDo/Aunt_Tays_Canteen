@@ -17,15 +17,15 @@ const TelaLogin: React.FC = () => {
         console.log(`Email:${email}\nSenha:${password}`)
     }
     
-    const [email, setEmail] = useState()
-    const [password, setPassword] =useState()
+    const [email, setEmail] = useState('')
+    const [password, setPassword] = useState('')
     
 return (
 
 <div className="telaLogin" style={{ display: isVisible ? 'block' : 'none' }}>
  
 <div className="form" >
-    <div className="close" onClick={toggleVisibility}><Closed/></div>
+    <div className="closed" onClick={toggleVisibility}><Closed/></div>
     <form method="post" action="#" onSubmit={loginDeUsuario}>
         <h1>Log in</h1>
         <label htmlFor="email">
@@ -35,7 +35,7 @@ return (
         <br/>
         <label htmlFor="password">
             
-            Password:<input type="password" name="password" id="in2" placeholder="Enter your password here" onChange={(e) => setPassword(e.target.value)}/>
+            Password:<input type="password" name="password" id="in2" placeholder="Enter your password here" onChange={(e) => setPassword((e.target.value))}/>
         </label>
         <p>you don't have a <a href="#">registration</a></p>
         <div onClick={toggleVisibility}>

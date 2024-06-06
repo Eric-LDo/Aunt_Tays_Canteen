@@ -1,7 +1,8 @@
 
 import './produtoMenu.css'
-import React, {useState} from 'react'
+import {useState} from 'react'
 import ConfBox from '../confbox/ConfBox'
+
 
 
 export interface Props {
@@ -13,12 +14,16 @@ export interface Props {
   id:number
 }
 
-export default function produtoMenu({ nome, ingredientes, descricao, preco,imagem}: Props){
-  
+export default function produtoMenu({ id, nome, ingredientes, descricao, preco,imagem}: Props){
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+  const [isVisible, setIsVisible] = useState(false)
+  const toggleVisibility= ()=>{
+    setIsVisible(!isVisible) 
+  }
   
   return(
     <>
-      <div className="container" onClick={onButtonClick}>
+      <div className="container" onClick={toggleVisibility}>
         <img className='produtoAmostra' src={imagem} alt="" />
         <div className="descricao">
           <h2>{nome}</h2>
@@ -27,18 +32,19 @@ export default function produtoMenu({ nome, ingredientes, descricao, preco,image
           <p>Valor:{` R$ ${preco.toFixed(2)}`}</p>
         </div>
       </div>
-      
+      <div className='boxConfiguration' style={{display: isVisible? 'block': 'none'}}>
+          <ConfBox
+            disp={isVisible}
+            id={id}
+            nome={nome}
+            ingredientes={ingredientes}
+            descricao={descricao}
+            preco={preco}
+            imagem={imagem}
+          />
+      </div>
     </>
   )
 }
 
-const Confirmacao =({onButtonClick})=>{
-  <ConfBox
-  id={id}
-  nome={nome}
-  imagem={imagem}
-  ingredientes={ingredientes}
-  descricao={descricao}
-  preco={preco}
-  />
-}
+
