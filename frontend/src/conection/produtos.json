@@ -25,58 +25,84 @@
     },
     {
         "id": 4,
-        "name": "Peanut Butter Brownie",
-        "ingredientes": ["chocolate", "açúcar", "manteiga", "ovos", "farinha", "manteiga de amendoim"],
-        "descricao": "Brownie com um toque de manteiga de amendoim.",
-        "valor": 22.90,
-        "imagem": "https://i.pinimg.com/564x/23/23/f4/2323f4375aceaff7a365aa3f717ff253.jpg"
+        "name": "Brownie Sugar - Rolling Stones",
+        "ingredientes": ["chocolate", "sugar", "butter", "eggs", "flour", "condensed milk and cream"],
+        "descricao": "Chocolate brownie with caramel filling",
+        "valor": 20.89,
+        "imagem": "https://www.bettycrocker.lat/wp-content/uploads/2022/01/Brownie-caramelo.jpg"
     },
     {
         "id": 5,
-        "name": "Mint Brownie",
-        "ingredientes": ["chocolate", "açúcar", "manteiga", "ovos", "farinha", "extrato de menta"],
-        "descricao": "Brownie com um sabor refrescante de menta.",
-        "valor": 20.90,
-        "imagem": "https://i.pinimg.com/564x/7b/cd/f0/7bcdf09200a4b777ab8bed345fb9ed29.jpg"
+        "name": "Another Brownie in the Wall - Pink Floyd",
+        "ingredientes": ["chocolate", "sugar", "butter", "eggs", "flour", "nuts"],
+        "descricao": "Classic brownie with crunchy walnut pieces.",
+        "valor": 21.90,
+        "imagem": "https://guiadacozinha.com.br/wp-content/uploads/2019/10/brownie-creme-avela-nozes.jpg"
     },
     {
         "id": 6,
-        "name": "Caramel Brownie",
-        "ingredientes": ["chocolate", "açúcar", "manteiga", "ovos", "farinha", "caramelo"],
-        "descricao": "Brownie com uma camada de caramelo derretido.",
-        "valor": 24.90,
-        "imagem": "https://i.pinimg.com/564x/2b/ef/22/2bef229f5954934aeeaaed3a1867e386.jpg"
+        "name": "I Want to Hold Your Brownie - Beatles",
+        "ingredientes": ["chocolate", "sugar", "butter", "eggs", "flour","cream cheese"],
+        "descricao": "Brownie with a layer of creamy cheesecake.",
+        "valor": 23.90,
+        "imagem": "https://www.eatingwell.com/thmb/wgZ_mEB7gey6YwpxJ7wdJy6suzY=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Cheesecake-Brownies-1x1-1-a38953e212554c53950960753e4668f7.jpg"
     },
     {
         "id": 7,
-        "name": "Espresso Brownie",
-        "ingredientes": ["chocolate", "açúcar", "manteiga", "ovos", "farinha", "café espresso"],
-        "descricao": "Brownie com um toque intenso de café.",
-        "valor": 21.90,
-        "imagem": "https://i.pinimg.com/564x/2a/c4/3f/2ac43f627c0db11588c35875fb1520f6.jpg"
+        "name": "Sweet Brownie O’ Mine - Guns N’ Roses",
+        "ingredientes": ["chocolate", "sugar", "butter", "eggs", "flour", "peanut butter"],
+        "descricao": "Brownie with a touch of peanut butter.",
+        "valor": 22.90,
+        "imagem": "https://www.plantte.com/wp-content/uploads/2021/06/brownie-de-banana-vegano-1152x1536.jpg"
     },
     {
         "id": 8,
-        "name": "Raspberry Brownie",
-        "ingredientes": ["chocolate", "açúcar", "manteiga", "ovos", "farinha", "framboesas"],
-        "descricao": "Brownie com framboesas frescas.",
-        "valor": 22.90,
-        "imagem": "https://i.pinimg.com/564x/b8/a7/a1/b8a7a1579dc362337aca8f06d364be0e.jpg"
+        "name": "Bring to brownie - Evanescence",
+        "ingredientes": ["chocolate", "sugar", "butter", "eggs", "flour", "mint extract"],
+        "descricao": "Brownie with a refreshing mint flavor.",
+        "valor": 20.90,
+        "imagem": "https://i.pinimg.com/736x/a0/e2/25/a0e22590579c4ece960865d050f819d1.jpg"
     },
     {
         "id": 9,
-        "name": "Salted Caramel Brownie",
-        "ingredientes": ["chocolate", "açúcar", "manteiga", "ovos", "farinha", "caramelo salgado"],
-        "descricao": "Brownie com uma camada de caramelo salgado.",
-        "valor": 25.90,
-        "imagem": "https://i.pinimg.com/564x/6b/19/03/6b1903592eb76c070a6b1e521d3859b9.jpg"
+        "name": "Thunderbrownie - AC/DC",
+        "ingredientes": ["chocolate", "sugar", "butter", "eggs", "flour", "pistachio"],
+        "descricao": "Brownie with a layer of pistachios",
+        "valor": 24.90,
+        "imagem": "https://delicious.today/wp-content/uploads/2021/04/1_WEB.jpg"
     },
     {
         "id": 10,
-        "name": "Coconut Brownie",
-        "ingredientes": ["chocolate", "açúcar", "manteiga", "ovos", "farinha", "coco ralado"],
-        "descricao": "Brownie com coco ralado por cima.",
+        "name": "Charlie Brownie",
+        "ingredientes": ["chocolate", "sugar", "butter", "eggs", "flour", "condensed milk and cream"],
+        "descricao": "Brownie with brigadeiro filling",
         "valor": 21.90,
-        "imagem": "https://i.pinimg.com/564x/6c/3b/10/6c3b10c95f7b8a71c8fbd59c80429c5c.jpg"
+        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsL8TX3Fr8HZlSndMzOo6T-CvlCq1EZgFCtg&s"
+    },
+    {
+        "id": 11,
+        "name": "Charlie Brownie Jr.",
+        "ingredientes": ["chocolate", "sugar", "butter", "eggs", "flour", "powdered milk", "condensed milk and cream"]
+,
+        "descricao": "Small brownie with powdered milk filling and hazelnut cream with cocoa.",
+        "valor": 22.90,
+        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBFD3m_jIWhPWBTsW7NVWq3edq4kZjWy8SKA&s"
+    },
+    {
+        "id": 12,
+        "name": "The best brownie thing - Avril Lavigne,",
+        "ingredientes": ["chocolate", "sugar", "butter", "eggs", "flour", "strawberry"],
+        "descricao": "Amazing strawberry brownie",
+        "valor": 25.90,
+        "imagem": "https://painacozinha.com/wp-content/uploads/2023/08/7.Brownie-de-chocolate-com-morangos-1024x683.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Under the Brownie - Red Hot Chili Peppers",
+        "ingredientes": ["chocolate", "sugar", "butter", "eggs", "flour", "passion fruit jelly with pepper"],
+        "descricao": "Spicy and creamy brownie",
+        "valor": 21.90,
+        "imagem": "https://i.pinimg.com/736x/09/ba/01/09ba01e0a23833d6ed27d27991bfedb2.jpg"
     }
+
 ]
