@@ -22,15 +22,15 @@ export default function ConfBox({disp,nome,ingredientes,descricao,preco,imagem}:
     };
     return (
         
-        <div className="ConfBox" style={{display: isVisible? 'block': 'none'}}>
-        <div className="descricao">
-            <div onClick={toggleVisibility}><Closed/></div>
-            <img src={imagem} alt="" />
+        <div className="confBox" style={{display: isVisible? 'block': 'none'}}>
+        <div className="confCont">
+            <div className='closed' onClick={toggleVisibility}><Closed/></div>
+            <img className="broImg"src={imagem} alt="" />
             <h2>{nome}</h2>
             <p>{ingredientes}</p>
             <p>{descricao}</p>
             <p>Valor:{` R$ ${preco.toFixed(2)}`}</p>
-            <input type="number" />
+            <label htmlFor="">Quantidade:<input type="number" placeholder='1'/></label>
             <div className='button'>
                 <ButtonMenu buttonName={'Confirmar'} />
             </div>

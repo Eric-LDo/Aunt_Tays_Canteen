@@ -15,13 +15,13 @@ export default function mainMenu(){
           {
             Pro.map((item) => {
               return <ProdutoMenu 
-              
-              nome={item.name}
-              preco={item.valor}
-              imagem={item.imagem}
-              ingredientes={`Ingredientes: ${item.ingredientes.join(", ")}`}
-              descricao={item.descricao}
               id={item.id}
+              imagem={item.imagem}
+              nome={item.name}
+              ingredientes={`Ingredients: ${item.ingredientes.join(", ")}`}
+              descricao={item.descricao}
+              preco={item.valor}
+ 
               />
                 })
           }

@@ -21,12 +21,16 @@ section h1{
     width: 80%;
     font-size: 300%;  
     border-bottom: 3px solid var(--color-text);
-    margin: 40px;
+    margin: 20px;
+}
+h2{
+    font-size: 200%;
+    color: var(--color-text);
 }
 
 section p{
     
-    font-size: 200%;
+    font-size: 150%;
     
     margin: 40px;
 

@@ -1,27 +1,27 @@
 [
     {
         "id": 1,
-        "name": "Classic Brownie",
-        "ingredientes": ["chocolate", "açúcar", "manteiga", "ovos", "farinha"],
-        "descricao": "Um brownie clássico com um sabor rico de chocolate.",
+        "name": "Charlie Brownie",
+        "ingredientes": ["chocolate", "sugar", "butter", "eggs", "flour"],
+        "descricao": "A classic brownie with a rich chocolate flavor.",
         "valor": 19.90,
         "imagem": "https://i.pinimg.com/564x/7a/73/85/7a738519cacf537e57de9cddcda25758.jpg"
     },
     {
         "id": 2,
-        "name": "Walnut Brownie",
-        "ingredientes": ["chocolate", "açúcar", "manteiga", "ovos", "farinha", "nozes"],
-        "descricao": "Brownie clássico com pedaços de nozes crocantes.",
-        "valor": 21.90,
-        "imagem": "https://i.pinimg.com/564x/a7/f8/88/a7f88857b10570b337d21565ac000c40.jpg"
+        "name": "Charlie Brownie.jr",
+        "ingredientes": ["chocolate", "sugar", "butter", "eggs", "flour"],
+        "descricao": "The same thing as the Caharlie Brownie, but smaller",
+        "valor": 9.90,
+        "imagem": "https://i.pinimg.com/564x/7a/73/85/7a738519cacf537e57de9cddcda25758.jpg"
     },
     {
         "id": 3,
-        "name": "Cheesecake Brownie",
-        "ingredientes": ["chocolate", "açúcar", "manteiga", "ovos", "farinha", "cream cheese"],
-        "descricao": "Brownie com uma camada de cheesecake cremoso.",
-        "valor": 23.90,
-        "imagem": "https://i.pinimg.com/564x/c4/36/bf/c436bff1e4107afa93b43321993acc7d.jpg"
+        "name": "The Best Brownie Thing",
+        "ingredientes": ["white chocolate", "sugar", "butter", "eggs", "flour", "strawberries", "pink food coloring"],
+        "descricao": "A delicious pink strawberry brownie with a unique flavor.",
+        "valor": 19.90,
+        "imagem": "https://i.pinimg.com/564x/68/c6/08/68c60897357adde814eebb9ff47174f0.jpg"
     },
     {
         "id": 4,

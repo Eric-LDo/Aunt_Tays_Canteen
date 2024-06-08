@@ -4,7 +4,7 @@ import TagMain from "../../tagmain/tagMain";
 
 
 
-function PageHome(){
+export default function PageHome(){
     return( 
         <div className="pagehome"> 
             <Header logoURL={'../image/logo/logo.png'}/>
@@ -15,5 +15,3 @@ function PageHome(){
         </div>
     )
 }   
-
-export default PageHome;

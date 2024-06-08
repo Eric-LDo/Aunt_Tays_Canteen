@@ -1,17 +1,33 @@
-.ConfBox{
-    width: 600px;
-    height: 600px;
+.confBox{
+    position:fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.116);
+    top:0;
+    left:0;
+    z-index: 1000;
+
+}
+.confCont{
+    position: relative;
     background-color: var(--color-text);
-    box-shadow:var(--color-text) ;
+    width: 500px;
+    height: 500px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    position: absolute;
+    border-radius: 10px;
     top: 50%;
     left: 50%;
-    transform: translate(-50% -50%);
+    transform: translate(-50%, -50%);
+   
 }
-.ConfBox img{
+.broImg{
     width: 200px;
     height: 200px;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
