@@ -1,6 +1,7 @@
 .menuPage{
     display: flex;
     flex-direction: column;
+    
     align-items: center;
     background-image: url('../../../../image/browniesFundoMobile.jpg') ;
     background-size: fixed;
