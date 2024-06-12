@@ -1,28 +1,5 @@
 [
-    {
-        "id": 1,
-        "name": "Charlie Brownie",
-        "ingredientes": ["chocolate", "sugar", "butter", "eggs", "flour"],
-        "descricao": "A classic brownie with a rich chocolate flavor.",
-        "valor": 19.90,
-        "imagem": "https://i.pinimg.com/564x/7a/73/85/7a738519cacf537e57de9cddcda25758.jpg"
-    },
-    {
-        "id": 2,
-        "name": "Charlie Brownie.jr",
-        "ingredientes": ["chocolate", "sugar", "butter", "eggs", "flour"],
-        "descricao": "The same thing as the Caharlie Brownie, but smaller",
-        "valor": 9.90,
-        "imagem": "https://i.pinimg.com/564x/7a/73/85/7a738519cacf537e57de9cddcda25758.jpg"
-    },
-    {
-        "id": 3,
-        "name": "The Best Brownie Thing",
-        "ingredientes": ["white chocolate", "sugar", "butter", "eggs", "flour", "strawberries", "pink food coloring"],
-        "descricao": "A delicious pink strawberry brownie with a unique flavor.",
-        "valor": 19.90,
-        "imagem": "https://i.pinimg.com/564x/68/c6/08/68c60897357adde814eebb9ff47174f0.jpg"
-    },
+    
     {
         "id": 4,
         "name": "Brownie Sugar - Rolling Stones",

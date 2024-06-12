@@ -21,7 +21,6 @@ export default function mainMenu(){
               ingredientes={`Ingredients: ${item.ingredientes.join(", ")}`}
               descricao={item.descricao}
               preco={item.valor}
- 
               />
                 })
           }

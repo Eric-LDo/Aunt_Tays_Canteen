@@ -1,20 +1,14 @@
-import "./App.css";
-// import CadPage from "./components/pages/cadpage/cadpage";
-import MenuPage from "./components/pages/menupage/manuPage";
-import PageHome from "./components/pages/pagehome/pagehome";
+// import "./App.css";
 
- 
+// import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+// import PageHome from "./routes/pagehome/pagehome";
+// import CadPage from "./routes/cadpage/cadpage";
+// import MenuPage from "./components/pages/menupage/manuPage";
 
-function App() {
- 
-
-  return (
-    <div className="app">
-      <PageHome/>
-      
-      {/* <MenuPage/> */}
-    </div>
-  )
-}
-
-export default App
+// export default function App() {
+  
+//   return (
+    
+    
+//   )
+// }

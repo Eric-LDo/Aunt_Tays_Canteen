@@ -1,6 +1,6 @@
 import './pagehome.css'
-import Header from "../../header/header";
-import TagMain from "../../tagmain/tagMain";
+import Header from '../../components/header/header';
+import TagMain from '../../components/tagmain/tagMain';
 
 
 
