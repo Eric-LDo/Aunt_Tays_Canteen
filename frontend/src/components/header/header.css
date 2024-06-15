@@ -1,36 +1,55 @@
 header{
-    width: 100%;
     height: 100px;
-    display: flex;
     background-color: var(--color-main);
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
     position: fixed;
-    z-index: 998;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    align-items: center;
+    z-index: 999;
     top: 0;
     left: 0;
 }
-
-header > div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    height: 100%;
-    
+.logo{
+    height: 100px;
 }
-.logo img{
-    height: 110%;
-    width: 300px;
-}
-header > div > img{
-    position: relative;
-    height: 50%;
-    margin: 10px;
-}
-header > div > img:hover{
+.linki:hover{
     filter: drop-shadow(0px 1px 4px rgba(255, 255, 255, 0.911));
     transform: scale(1.1);
     cursor: pointer;
 }
+.box{
+    flex: 1;
+    
+    display: flex;
+
+
+}
+.logo{
+    justify-content: center;
+}
+.login{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+.login img{
+    width: auto;
+    height: 80px;
+    margin: 10px 20px 10px 20px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    
+}
+.icones img{
+    width: auto;
+    height: 80px;
+    margin: 10px 20px 10px 20px;
+}
+

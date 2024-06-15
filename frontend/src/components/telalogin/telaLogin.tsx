@@ -2,10 +2,11 @@ import ButtonMenu from "../buttonMenu/buttonMenu";
 import Closed from '../closed/closed'
 import React, { useState } from "react";
 import './telaLogin.css'
+import { Link } from "react-router-dom";
 
 
 const TelaLogin: React.FC = () => {
-    const [isVisible, setIsVisible] = useState(true);
+    const [isVisible, setIsVisible] = useState(false);
 
     const toggleVisibility = () => {
         setIsVisible(!isVisible);
@@ -37,7 +38,7 @@ return (
             
             Password:<input type="password" name="password" id="in2" placeholder="Enter your password here" onChange={(e) => setPassword((e.target.value))}/>
         </label>
-        <p>you don't have a <a href="#">registration</a></p>
+        <p>you don't have a <Link to="/cadastro">registration</Link></p>
         <div onClick={toggleVisibility}>
             <ButtonMenu buttonName={'Enter'}/>
         </div>
@@ -48,4 +49,5 @@ return (
 }
 
 export default TelaLogin;
+
 

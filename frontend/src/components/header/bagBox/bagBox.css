@@ -1,0 +1,23 @@
+.bagContainer{
+    background-color: var(--color-text);
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    z-index: 998;
+    position: fixed;
+    right: 0;
+    top:0;
+    box-shadow: var(--box-shadow-default);
+    display:none;
+    
+}
+form{
+    margin-top: 140px;
+    
+}
+form h2{
+    color:black;
+    text-align: center;
+}
