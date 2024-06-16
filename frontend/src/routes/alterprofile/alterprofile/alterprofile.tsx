@@ -1,14 +1,14 @@
-import './cadastro.css'
-import Endereco from "../endereco/endereco"
-import { useState } from 'react'
-export default function Cadastro(){
+import { useState } from "react"
+import Endereco from "../../../components/endereco/endereco"
+
+export default function AlterProfile(){
     const [hiden, setHiden] = useState(true)
     function isHiden(){
         setHiden(!hiden)
     }
     return(
         <div className="cadastro">
-            <h1>Cadastro</h1>
+            <h1>Alter Profile</h1>
             <form>
                 <label>Nome:
                     <input type="text" />

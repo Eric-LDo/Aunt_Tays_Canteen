@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import CadPage from './routes/cadpage/cadpage.tsx'
 import MenuPage from './routes/menupage/manuPage.tsx'
 import PageHome from './routes/pagehome/pagehome.tsx'
+
 const router = createBrowserRouter([
   {
     path:"/",
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
   {
     path:"cadastro",
     element:<CadPage/>
+  },
+  {
+    path:"alterprofile",
+    element:<AlterPage/>
   }
 ])
 ReactDOM.createRoot(document.getElementById('root')!).render(
