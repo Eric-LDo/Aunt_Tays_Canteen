@@ -2,6 +2,7 @@ import './header.css'
 import { Link } from 'react-router-dom'
 import TelaLogin  from '../../components/telalogin/telaLogin'
 import BagBox from './bagBox/bagBox';
+import ConfigBox from './configbox/configBox';
 interface Props{
     logoURL: string,
 }
@@ -31,6 +32,7 @@ function Header({logoURL}:Props){
             
         </header>
         <BagBox/>
+        <ConfigBox/>
         </>
     )
     
