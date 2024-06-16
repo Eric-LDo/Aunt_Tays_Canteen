@@ -25,8 +25,6 @@ export default function AlterProfile(){
                     <input type={hiden? 'password':'text'} /><div className={`viwpassword ${hiden? 'pshiden':'psshow'}`} onClick={isHiden}></div><br />
                        Confirme a Senha:
                     <input type={hiden? 'password':'text'} />
-
-
                 </label>
                 <br />
                 <label htmlFor=""><Endereco/>

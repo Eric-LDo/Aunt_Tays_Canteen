@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import CadPage from './routes/cadpage/cadpage.tsx'
 import MenuPage from './routes/menupage/manuPage.tsx'
 import PageHome from './routes/pagehome/pagehome.tsx'
+import AlterPage from './routes/alterpage/alterpage.tsx'
 
 const router = createBrowserRouter([
   {
