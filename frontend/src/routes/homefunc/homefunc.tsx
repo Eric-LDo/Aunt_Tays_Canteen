@@ -6,12 +6,14 @@ export default function HomeFunc(){
     return (
         <>
             <div className="container">
-                <Header logoURL={""}/>
+                <Header logoURL={"../../../image/logo/logo.png"}/>
                 <h1>Home Page</h1>
+                <a href="verpedidos">
+                    <ButtonMenu
+                    buttonName="Ver os pedidos"/>
+                </a>
                 <ButtonMenu
-                buttonName="Ver os pedidos"/>
-                <ButtonMenu
-                buttonName="Ver os pedidos"/>
+                buttonName="Configuração dos produtos"/>
                 <ButtonMenu
                 buttonName="Configuração de funcionarios"/>
             </div>

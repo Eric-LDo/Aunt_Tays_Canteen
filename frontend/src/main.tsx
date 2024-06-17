@@ -7,6 +7,7 @@ import MenuPage from './routes/menupage/manuPage.tsx'
 import PageHome from './routes/pagehome/pagehome.tsx'
 import AlterPage from './routes/alterpage/alterpage.tsx'
 import HomeFunc from './routes/homefunc/homefunc.tsx'
+import VerPedidos from './routes/verpedidos/verPedidos.tsx'
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
   {
     path:"funcionarios",
     element:<HomeFunc/>
+  },
+  {
+    path:"verpedidos",
+    element:<VerPedidos/>
   }
 
 ])
