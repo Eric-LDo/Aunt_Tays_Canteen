@@ -13,12 +13,10 @@ const pedidostest=[
                 idproduto:1,
                 valorTotal:39.90
             }
-       
-
     ] 
     }
     
 ]
 export default function PedidosCli(){
-
+    
 }
