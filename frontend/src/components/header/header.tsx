@@ -1,38 +1,58 @@
 import './header.css'
-import { Link } from 'react-router-dom'
+
 import TelaLogin  from '../../components/telalogin/telaLogin'
 import BagBox from './bagBox/bagBox';
 import ConfigBox from './configbox/configBox';
+import { useState } from 'react';
 interface Props{
     logoURL: string,
 }
 function Header({logoURL}:Props){
+    const [loginVisible, setLoginVisible] = useState(false)
+    function isLoginV(){
+        setLoginVisible(!loginVisible)
+    }
+    const [confVisible, setConfVisible] = useState(false)
+    function isConfV(){
+        setConfVisible(!confVisible)
+        bagVisible?setBagVisible(false):setBagVisible(bagVisible)
+
+    }
+    const [bagVisible, setBagVisible] = useState(false)
+    function isBagV(){
+        setBagVisible(!bagVisible)
+        confVisible?setConfVisible(false):setConfVisible(confVisible)
+    }
     return(
         <>
         <header>
-            <div className="box login">
-                <img className="icones linki" src="../../../image/incons/entrar.png" alt="entrar"  />
-                <TelaLogin />
+            <div className="box box1">
+                <img className="icone linki" onClick={isLoginV} src="../../../image/incons/entrar.png" alt="entrar"  />
+                {loginVisible?<TelaLogin
+                onClosed={isLoginV}
+                />:null}
             </div>
-            <Link to="/" className="box logo">
-                <img className='linki' src={logoURL} alt="logo" />
-            </Link>
-            <div className="box menu">
-                <a className='icones linki' href="/menu">
-                    <img src="../../../image/incons/menu.png" alt="menu"/>
+            <div className="box box2">
+                <a href="/">
+                    <img className='linki logo' src={logoURL} alt="logo" />
                 </a>
-                <div className='icones linki'>
-                    <img src="../../../image/incons/bag.png" alt="bag"/>
-                    
+            </div>
+            <div className="box box3">
+                <a  href="/menu">
+                    <img className='linki icone' src="../../../image/incons/menu.png" alt="menu"/>
+                </a>
+                <div onClick={isBagV}>
+                    <img className='linki icone'  src="../../../image/incons/bag.png" alt="bag"/>
                 </div>
-                <div className='icones linki'>
-                    <img className='icones config ' src="../../../image/incons/config.png" alt="config" />
+                <div onClick={isConfV}>
+                    <img className='icone linki config ' src="../../../image/incons/config.png" alt="config" />
                 </div>
             </div> 
             
         </header>
-        <BagBox/>
-        <ConfigBox/>
+        {bagVisible?<BagBox/>:null}
+
+        {confVisible?<ConfigBox/>:null}
         </>
     )
     

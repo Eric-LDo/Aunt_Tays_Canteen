@@ -1,9 +1,10 @@
-import Header from '../../components/header/header'
+
+import HeaderFunc from '../../components/headerfunc/HeaderFunc'
 import './confProd.css'
 export default function ConfProd(){
     return(
         <>
-            <Header
+            <HeaderFunc
                 logoURL={""}
             />
             <div className="confProdContainer"></div>

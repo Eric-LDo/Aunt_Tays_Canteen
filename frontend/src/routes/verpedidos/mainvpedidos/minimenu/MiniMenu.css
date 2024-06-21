@@ -1,3 +1,26 @@
 .mini-menu{
-    
+    border-top:1px solid #cdcdcd;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.mini-menu ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.mini-menu ul li{
+    padding: 10px;
+    font-size: 25px;
+    transition:background-color 0.5s;
+    flex: 1;
+    text-align: center;
+}
+.mini-menu ul li:hover{
+    cursor:pointer;
+    color: #861501;
+    background-color: #cdcdcd;
 }

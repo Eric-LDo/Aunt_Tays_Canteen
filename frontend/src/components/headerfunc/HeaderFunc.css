@@ -15,7 +15,8 @@ header{
 }
 .box{
     flex:1;
-    display: flex; 
+    display: flex;
+    
 }
 
 .box1{
@@ -29,10 +30,6 @@ header{
 .box3{
     justify-self:end ;
     justify-content: end;
-
-}
-.box3 .icone{
-    margin-left: 1vw;
 }
 .icone{
     height: 3.5vw;
@@ -40,3 +37,6 @@ header{
 .logo{
     height: 5.9vw;
 }
+
+
+
