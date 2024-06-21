@@ -12,7 +12,7 @@ interface Props{
     imagem:string
 }
 
-export default function ConfBox({disp,nome,ingredientes,descricao,preco,imagem}:Props){
+export default function ConfBox({disp,nome,ingredientes,descricao,preco,id,imagem}:Props){
     
     const [isVisible, setIsVisible] = useState(true)
     
@@ -22,7 +22,7 @@ export default function ConfBox({disp,nome,ingredientes,descricao,preco,imagem}:
     };
     return (
         
-        <div className="confBox" style={{display: isVisible? 'block': 'none'}}>
+        <div key={id} className="confBox" style={{display: isVisible? 'block': 'none'}}>
         <div className="confCont">
             <div className='closed' onClick={toggleVisibility}><Closed/></div>
             <img className="broImg"src={imagem} alt="" />

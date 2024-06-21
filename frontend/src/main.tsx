@@ -7,7 +7,7 @@ import MenuPage from './routes/menupage/manuPage.tsx'
 import PageHome from './routes/pagehome/pagehome.tsx'
 import AlterPage from './routes/alterpage/alterpage.tsx'
 import HomeFunc from './routes/homefunc/homefunc.tsx'
-import VerPedidos from './routes/verpedidos/verPedidos.tsx'
+import VerPedidos from './routes/verpedidos/VerPedidos.tsx'
 
 const router = createBrowserRouter([
   {

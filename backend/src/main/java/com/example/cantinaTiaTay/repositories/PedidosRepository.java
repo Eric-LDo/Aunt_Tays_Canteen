@@ -1,9 +1,10 @@
-package com.example.cantinaTiaTay.repositories;
+package com.example.cantinatiatay.repositories;
 
-import com.example.cantinaTiaTay.model.Pedidos;
-import com.example.cantinaTiaTay.model.Pessoas;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+
+import com.example.cantinatiatay.model.Pedidos;
+import com.example.cantinatiatay.model.Pessoas;
 
 @Repository
 public interface PedidosRepository extends JpaRepository<Pedidos, Integer> {

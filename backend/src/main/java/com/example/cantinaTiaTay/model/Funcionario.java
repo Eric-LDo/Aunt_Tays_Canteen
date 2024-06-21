@@ -1,4 +1,4 @@
-package com.example.cantinaTiaTay.model;
+package com.example.cantinatiatay.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

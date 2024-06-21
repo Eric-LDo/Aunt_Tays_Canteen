@@ -1,7 +1,7 @@
 
-import ProdutoMenu from '../produtoMenu/produtoMenu'
+import ProdutoMenu from '../../../components/produtoMenu/produtoMenu';
 import './mainMenu.css';
-import Pro from '../../conection/produtos.json'
+import Pro from '../../../conection/produtos.json'
 
 export interface mainMenuProps {
   prop?: string;
@@ -18,7 +18,7 @@ export default function mainMenu(){
               id={item.id}
               imagem={item.imagem}
               nome={item.name}
-              ingredientes={`Ingredients: ${item.ingredientes.join(", ")}`}
+              ingredientes={item.ingredientes}
               descricao={item.descricao}
               preco={item.valor}
               />

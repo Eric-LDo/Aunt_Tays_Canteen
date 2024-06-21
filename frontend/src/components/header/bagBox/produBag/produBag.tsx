@@ -6,9 +6,9 @@ export interface Props{
     quantidade:number
 }
 
-export default function produBag({nome,valor,quantidade}:Props){
+export default function produBag({id,nome,valor,quantidade}:Props){
     return(
-        <div className="proBagCont">
+        <div className="proBagCont" key={id}>
             <h3>{nome}</h3>
             <p>{`Valor: R$ ${valor*quantidade}`}</p>
             <input type="number" value={quantidade}/>

@@ -1,0 +1,347 @@
+[
+    {
+        "id": 1,
+        "cliente": {
+            "id": 1,
+            "nome": "Eric",
+            "email": "ericld@gmail.com",
+            "senha": "senha1234",
+            "telefone": "11999999999",
+            "rua": "rua das figueiras",
+            "bairro": "centro",
+            "cidade": "são paulo",
+            "cep": "15200000",
+            "numero": 35,
+            "complemento": "apto 101"
+        },
+        "dataPedido": "12-05-2024",
+        "itensPedidos":[
+            {
+                "id": 1,
+                "pedido": 1,
+                "produto": {
+                    "id": 4,
+                    "name": "Brownie Sugar - Rolling Stones",
+                    "ingredientes": "chocolate, sugar, butter, eggs, flour, condensed milk and cream",
+                    "descricao": "Chocolate brownie with caramel filling",
+                    "valor": 20.89,
+                    "imagem": "https://www.bettycrocker.lat/wp-content/uploads/2022/01/Brownie-caramelo.jpg"
+                },
+                "quantidade": 2,
+                "valorTotal": 41.78
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "cliente": {
+            "id": 2,
+            "nome": "Ana",
+            "email": "ana123@gmail.com",
+            "senha": "senha12345",
+            "telefone": "11888888888",
+            "rua": "rua dos pinheiros",
+            "bairro": "vila madalena",
+            "cidade": "são paulo",
+            "cep": "15300000",
+            "numero": 102,
+            "complemento": "casa 2"
+        },
+        "dataPedido": "13-05-2024",
+        "itensPedidos": [
+            {
+                "id": 2,
+                "pedido": 2,
+                "produto": {
+                    "id": 5,
+                    "name": "Another Brownie in the Wall - Pink Floyd",
+                    "ingredientes": "chocolate, sugar, butter, eggs, flour, nuts",
+                    "descricao": "Classic brownie with crunchy walnut pieces.",
+                    "valor": 21.90,
+                    "imagem": "https://guiadacozinha.com.br/wp-content/uploads/2019/10/brownie-creme-avela-nozes.jpg"
+                },
+                "quantidade": 1,
+                "valorTotal": 21.90
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "cliente": {
+            "id": 3,
+            "nome": "João",
+            "email": "joao234@gmail.com",
+            "senha": "senha123",
+            "telefone": "11777777777",
+            "rua": "avenida paulista",
+            "bairro": "jardins",
+            "cidade": "são paulo",
+            "cep": "15400000",
+            "numero": 1000,
+            "complemento": "apto 200"
+        },
+        "dataPedido": "14-05-2024",
+        "itensPedidos": [
+            {
+                "id": 3,
+                "pedido": 3,
+                "produto": {
+                    "id": 6,
+                    "name": "I Want to Hold Your Brownie - Beatles",
+                    "ingredientes": "chocolate, sugar, butter, eggs, flour, cream cheese",
+                    "descricao": "Brownie with a layer of creamy cheesecake.",
+                    "valor": 23.90,
+                    "imagem": "https://www.eatingwell.com/thmb/wgZ_mEB7gey6YwpxJ7wdJy6suzY=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Cheesecake-Brownies-1x1-1-a38953e212554c53950960753e4668f7.jpg"
+                },
+                "quantidade": 2,
+                "valorTotal": 47.80
+            },
+            {
+                "id": 27,
+                "pedido": 3,
+                "produto": {
+                    "id": 6,
+                    "name": "I Want to Hold Your Brownie - Beatles",
+                    "ingredientes": "chocolate, sugar, butter, eggs, flour, cream cheese",
+                    "descricao": "Brownie with a layer of creamy cheesecake.",
+                    "valor": 23.90,
+                    "imagem": "https://www.eatingwell.com/thmb/wgZ_mEB7gey6YwpxJ7wdJy6suzY=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Cheesecake-Brownies-1x1-1-a38953e212554c53950960753e4668f7.jpg"
+                },
+                "quantidade": 2,
+                "valorTotal": 47.80
+            }
+
+        ]
+    },
+    {
+        "id": 4,
+        "cliente": {
+            "id": 4,
+            "nome": "Maria",
+            "email": "maria345@gmail.com",
+            "senha": "senha123",
+            "telefone": "11666666666",
+            "rua": "rua augusta",
+            "bairro": "consolação",
+            "cidade": "são paulo",
+            "cep": "15500000",
+            "numero": 50,
+            "complemento": "apto 300"
+        },
+        "dataPedido": "15-05-2024",
+        "itensPedidos": [
+            {
+                "id": 4,
+                "pedido": 4,
+                "produto": {
+                    "id": 7,
+                    "name": "Sweet Brownie O’ Mine - Guns N’ Roses",
+                    "ingredientes": "chocolate, sugar, butter, eggs, flour, peanut butter",
+                    "descricao": "Brownie with a touch of peanut butter.",
+                    "valor": 22.90,
+                    "imagem": "https://www.plantte.com/wp-content/uploads/2021/06/brownie-de-banana-vegano-1152x1536.jpg"
+                },
+                "quantidade": 3,
+                "valorTotal": 68.70
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "cliente": {
+            "id": 5,
+            "nome": "Carlos",
+            "email": "carlos456@gmail.com",
+            "senha": "senha123",
+            "telefone": "11555555555",
+            "rua": "rua da consolação",
+            "bairro": "centro",
+            "cidade": "são paulo",
+            "cep": "15600000",
+            "numero": 12,
+            "complemento": "apto 401"
+        },
+        "dataPedido": "16-05-2024",
+        "itensPedidos": [
+            {
+                "id": 5,
+                "pedido": 5,
+                "produto": {
+                    "id": 8,
+                    "name": "Bring to brownie - Evanescence",
+                    "ingredientes": "chocolate, sugar, butter, eggs, flour, mint extract",
+                    "descricao": "Bronie with a refreshing mint flavor.",
+                    "valor": 20.90,
+                    "imagem": "https://i.pinimg.com/736x/a0/e2/25/a0e22590579c4ece960865d050f819d1.jpg"
+                },
+                "quantidade": 2,
+                "valorTotal": 41.80
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "cliente": {
+            "id": 6,
+            "nome": "Fernanda",
+            "email": "fernanda567@gmail.com",
+            "senha": "senha123",
+            "telefone": "11444444444",
+            "rua": "rua bento freitas",
+            "bairro": "república",
+            "cidade": "são paulo",
+            "cep": "15700000",
+            "numero": 23,
+            "complemento": "apto 101"
+        },
+        "dataPedido": "17-05-2024",
+        "itensPedidos": [
+            {
+                "id": 6,
+                "pedido": 6,
+                "produto": {
+                    "id": 9,
+                    "name": "Thunderbrownie - AC/DC",
+                    "ingredientes": "chocolate, sugar, butter, eggs, flour, pistachio",
+                    "descricao": "Browne with a layer of pistachios",
+                    "valor": 24.90,
+                    "imagem": "https://delicious.today/wp-content/uploads/2021/04/1_WEB.jpg"
+                },
+                "quantidade": 1,
+                "valorTotal": 24.90
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "cliente": {
+            "id": 7,
+            "nome": "Roberto",
+            "email": "roberto678@gmail.com",
+            "senha": "senha123",
+            "telefone": "11333333333",
+            "rua": "avenida são joão",
+            "bairro": "centro",
+            "cidade": "são paulo",
+            "cep": "15800000",
+            "numero": 345,
+            "complemento": "apto 502"
+        },
+        "dataPedido": "18-05-2024",
+        "itensPedidos": [
+            {
+                "id": 7,
+                "pedido": 7,
+                "produto": {
+                    "id": 10,
+                    "name": "Charlie Brownie",
+                    "ingredientes": "chocolate, sugar, butter, eggs, flour, condensed milk and cream",
+                    "descricao": "Brownie with brigadeiro filling",
+                    "valor": 21.90,
+                    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsL8TX3Fr8HZlSndMzOo6T-CvlCq1EZgFCtg&s"
+                },
+                "quantidade": 1,
+                "valorTotal": 21.90
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "cliente": {
+            "id": 8,
+            "nome": "Paula",
+            "email": "paula789@gmail.com",
+            "senha": "senha123",
+            "telefone": "11222222222",
+            "rua": "rua boa vista",
+            "bairro": "sé",
+            "cidade": "são paulo",
+            "cep": "15900000",
+            "numero": 67,
+            "complemento": "apto 203"
+        },
+        "dataPedido": "19-05-2024",
+        "itensPedidos": [
+            {
+                "id": 8,
+                "pedido": 8,
+                "produto": {
+                    "id": 11,
+                    "name": "Charlie Brownie Jr.",
+                    "ingredientes": "chocolate, sugar, butter, eggs, flour, powdered milk, condensed milk and cream",
+                    "descricao": "Small brownie with powdered milk filling and hazelnut cream with cocoa.",
+                    "valor": 22.90,
+                    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBFD3m_jIWhPWBTsW7NVWq3edq4kZjWy8SKA&s"
+                },
+                "quantidade": 2,
+                "valorTotal": 45.80
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "cliente": {
+            "id": 9,
+            "nome": "Luciano",
+            "email": "luciano890@gmail.com",
+            "senha": "senha123",
+            "telefone": "11111111111",
+            "rua": "rua líbero badaró",
+            "bairro": "centro",
+            "cidade": "são paulo",
+            "cep": "16000000",
+            "numero": 89,
+            "complemento": "apto 704"
+        },
+        "dataPedido": "20-05-2024",
+        "itensPedidos": [
+            {
+                "id": 9,
+                "pedido": 9,
+                "produto": {
+                    "id": 12,
+                    "name": "The best brownie thing - Avril Lavigne",
+                    "ingredientes": "chocolate, sugar, butter, eggs, flour, strawberry",
+                    "descricao": "Amazing strawberry brownie",
+                    "valor": 25.90,
+                    "imagem": "https://painacozinha.com/wp-content/uploads/2023/08/7.Brownie-de-chocolate-com-morangos-1024x683.jpg"
+                },
+                "quantidade": 1,
+                "valorTotal": 25.90
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "cliente": {
+            "id": 10,
+            "nome": "Mariana",
+            "email": "mariana901@gmail.com",
+            "senha": "senha123",
+            "telefone": "11000000000",
+            "rua": "rua xv de novembro",
+            "bairro": "sé",
+            "cidade": "são paulo",
+            "cep": "16100000",
+            "numero": 45,
+            "complemento": "apto 305"
+        },
+        "dataPedido": "21-05-2024",
+        "itensPedidos": [
+            {
+                "id": 10,
+                "pedido": 10,
+                "produto": {
+                    "id": 13,
+                    "name": "Under the Brownie - Red Hot Chili Peppers",
+                    "ingredientes": "chocolate, sugar, butter, eggs, flour, passion fruit jelly with pepper",
+                    "descricao": "Spicy and creamy brownie",
+                    "valor": 21.90,
+                    "imagem": "https://i.pinimg.com/736x/09/ba/01/09ba01e0a23833d6ed27d27991bfedb2.jpg"
+                },
+                "quantidade": 3,
+                "valorTotal": 65.70
+            }
+        ]
+    }
+]

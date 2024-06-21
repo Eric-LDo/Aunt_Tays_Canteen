@@ -1,4 +1,4 @@
-package com.example.cantinaTiaTay.dtos;
+package com.example.cantinatiatay.dtos;
 
 import jakarta.validation.constraints.NotNull;
 

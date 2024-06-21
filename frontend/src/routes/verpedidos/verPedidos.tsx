@@ -1,16 +1,12 @@
-import Header from '../../components/header/header'
-// import PedidosCli from '../../components/pedidoscli/PedidosCli'
-import './verPedidos.css'
-
+import Header from "../../components/header/header";
+import MainVPedidos from "./mainvpedidos/MainVPedidos"
 export default function VerPedidos(){
-    return(
+    return (
         <>
-            <Header logoURL=''/>
-            {/* <PedidosCli/> */}
-
-            
+            <Header
+            logoURL={''}
+            />
+            <MainVPedidos/>
         </>
     )
-        
-    
 }

@@ -17,3 +17,6 @@ body{
   flex-direction: column;
   height: auto;
 }
+li{
+  list-style: none;
+}

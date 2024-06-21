@@ -1,11 +1,5 @@
-package com.example.cantinaTiaTay.controllers;
+package com.example.cantinatiatay.controllers;
 
-import com.example.cantinaTiaTay.dtos.ClientesRecordDto;
-import com.example.cantinaTiaTay.dtos.ItensPedidosRecordDto;
-import com.example.cantinaTiaTay.dtos.PedidosRecordDto;
-import com.example.cantinaTiaTay.dtos.PessoasRecordDto;
-import com.example.cantinaTiaTay.model.*;
-import com.example.cantinaTiaTay.repositories.PedidosRepository;
 import jakarta.validation.Valid;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,6 +7,13 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
+
+import com.example.cantinatiatay.dtos.ClientesRecordDto;
+import com.example.cantinatiatay.dtos.ItensPedidosRecordDto;
+import com.example.cantinatiatay.dtos.PedidosRecordDto;
+import com.example.cantinatiatay.dtos.PessoasRecordDto;
+import com.example.cantinatiatay.model.*;
+import com.example.cantinatiatay.repositories.PedidosRepository;
 
 import java.util.List;
 import java.util.Optional;

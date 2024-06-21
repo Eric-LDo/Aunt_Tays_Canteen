@@ -23,7 +23,7 @@ export default function produtoMenu({ id, nome, ingredientes, descricao, preco,i
   
   return(
     <>
-      <div className="container" onClick={toggleVisibility}>
+      <div key={id} className="container" onClick={toggleVisibility}>
         <img className='produtoAmostra' src={imagem} alt="" />
         <div className="descricao">
           <h2>{nome}</h2>

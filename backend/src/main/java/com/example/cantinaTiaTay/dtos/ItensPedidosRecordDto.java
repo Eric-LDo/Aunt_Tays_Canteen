@@ -1,6 +1,7 @@
-package com.example.cantinaTiaTay.dtos;
+package com.example.cantinatiatay.dtos;
 
-import com.example.cantinaTiaTay.model.Produtos;
+import com.example.cantinatiatay.model.Produtos;
+
 import jakarta.validation.constraints.NotNull;
 
 public record ItensPedidosRecordDto(@NotNull int quantidade, @NotNull Produtos produto) {

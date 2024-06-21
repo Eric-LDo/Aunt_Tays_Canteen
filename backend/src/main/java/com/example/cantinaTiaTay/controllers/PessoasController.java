@@ -1,13 +1,5 @@
-package com.example.cantinaTiaTay.controllers;
+package com.example.cantinatiatay.controllers;
 
-import com.example.cantinaTiaTay.dtos.ClientesRecordDto;
-import com.example.cantinaTiaTay.dtos.PessoasRecordDto;
-import com.example.cantinaTiaTay.dtos.ProdutosRecordDto;
-import com.example.cantinaTiaTay.model.Clientes;
-import com.example.cantinaTiaTay.model.Funcionario;
-import com.example.cantinaTiaTay.model.Pessoas;
-import com.example.cantinaTiaTay.model.Produtos;
-import com.example.cantinaTiaTay.repositories.PessoasRepository;
 import jakarta.validation.Valid;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,6 +7,15 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
+
+import com.example.cantinatiatay.dtos.ClientesRecordDto;
+import com.example.cantinatiatay.dtos.PessoasRecordDto;
+import com.example.cantinatiatay.dtos.ProdutosRecordDto;
+import com.example.cantinatiatay.model.Clientes;
+import com.example.cantinatiatay.model.Funcionario;
+import com.example.cantinatiatay.model.Pessoas;
+import com.example.cantinatiatay.model.Produtos;
+import com.example.cantinatiatay.repositories.PessoasRepository;
 
 import java.util.List;
 import java.util.Optional;

@@ -1,6 +1,6 @@
 import './menuPage.css'
 import Header from '../../components/header/header'
-import MainMenu from '../../components/mainMenu/mainMenu'
+import MainMenu from './mainMenu/mainMenu'
 export default function MenuPage(){
     return(
         <div className="menuPage">

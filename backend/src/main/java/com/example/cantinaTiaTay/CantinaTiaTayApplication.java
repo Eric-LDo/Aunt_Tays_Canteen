@@ -1,4 +1,4 @@
-package com.example.cantinaTiaTay;
+package com.example.cantinatiatay;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
