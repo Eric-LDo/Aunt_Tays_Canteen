@@ -4,58 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3712a825-5489-4f96-8abd-7f0312c4a458" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Aunt_Tays_Canteen.iml" beforeDir="false" />
+    <list default="true" id="76fad91b-e641-4b7a-a683-61b4823d75df" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Aunt_Tays_Canteen.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/cantinaTiaTay/src/main/resources/META-INF/additional-spring-configuration-metadata.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/node_modules/.bin/nvm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/node_modules/.bin/nvm.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/node_modules/.bin/nvm.ps1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/node_modules/.package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/node_modules/nvm/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/node_modules/nvm/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/node_modules/nvm/bin/aliases.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/node_modules/nvm/bin/nvm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/node_modules/nvm/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/cantinaTiaTay/CantinaTiaTayApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/cantinaTiaTay/controllers/ClientesController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/cantinaTiaTay/controllers/FuncionarioController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/cantinaTiaTay/controllers/ItensPedidosController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/cantinaTiaTay/controllers/PedidosController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/cantinaTiaTay/controllers/PessoasController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/cantinaTiaTay/controllers/ProdutosController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/cantinaTiaTay/dtos/ClientesRecordDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/cantinaTiaTay/dtos/FuncionarioRecordDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/cantinaTiaTay/dtos/ItensPedidosRecordDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/cantinaTiaTay/dtos/PedidosRecordDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/cantinaTiaTay/dtos/PessoasRecordDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/cantinaTiaTay/dtos/ProdutosRecordDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/cantinaTiaTay/model/Clientes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/cantinaTiaTay/model/Funcionario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/cantinaTiaTay/model/ItensPedidos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/cantinaTiaTay/model/Pedidos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/cantinaTiaTay/model/Pessoas.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/cantinaTiaTay/model/Produtos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/cantinaTiaTay/repositories/ClientesRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/cantinaTiaTay/repositories/FuncionarioRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/cantinaTiaTay/repositories/ItensPedidosRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/cantinaTiaTay/repositories/PedidosRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/cantinaTiaTay/repositories/PessoasRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/cantinaTiaTay/repositories/ProdutosRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/example/cantinaTiaTay/CantinaTiaTayApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/cantinaTiaTay/src/main/java/com/example/cantinaTiaTay/repositories/ItensPedidosRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/cantinaTiaTay/src/main/java/com/example/cantinaTiaTay/repositories/ItensPedidosRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/cantinaTiaTay/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/cantinaTiaTay/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,53 +31,82 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 0
 }</component>
-  <component name="ProjectId" id="2iDFw2ECRAJDv8jKNOFRtu5P0sv" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2iF1TbprVgtoyiuhDwtVTFlUxLK" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "JUnit.CantinaTiaTayApplicationTests.executor": "Run",
+    "Maven.cantinaTiaTay [clean].executor": "Run",
+    "Maven.cantinaTiaTay [install].executor": "Run",
+    "Maven.cantinaTiaTay [org.apache.maven.plugins:maven-install-plugin:3.1.2:install-file].executor": "Run",
+    "Maven.cantinaTiaTay [org.apache.maven.plugins:maven-install-plugin:3.1.2:install].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Shell Script.mvnw.executor": "Run",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.CantinaTiaTayApplication.executor": "Run",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.qodana",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="QodanaHighlightedReportService">
-    <option name="localRunNotPublishedPersistedInfo">
-      <LocalReportPersistedInfo>
-        <option name="path" value="C:\Users\Eric\AppData\Local\Temp\qodana_output\qodana.sarif.json" />
-        <option name="reportGuid" value="4cc9cfe1-c320-4f34-b2ac-29a91677e91f" />
-        <option name="reportName" value="Aunt_Tays_Canteen/qodana/2024-06-22" />
-      </LocalReportPersistedInfo>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn install" />
     </option>
   </component>
-  <component name="QodanaIsSelectedPersistenceService">
-    <option name="selectedOrLoading" value="true" />
-  </component>
-  <component name="QodanaReportsService">
-    <option name="descriptions">
-      <ReportDescription localRun="true" path="C:\Users\Eric\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="4cc9cfe1-c320-4f34-b2ac-29a91677e91f" reportId="Aunt_Tays_Canteen/qodana/2024-06-22" />
-    </option>
+  <component name="RunManager" selected="JUnit.CantinaTiaTayApplicationTests">
+    <configuration name="CantinaTiaTayApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cantinaTiaTay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.cantinaTiaTay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.cantinaTiaTay" />
+      <option name="MAIN_CLASS_NAME" value="com.example.cantinaTiaTay.CantinaTiaTayApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CantinaTiaTayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cantinaTiaTay" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.cantinaTiaTay.CantinaTiaTayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.cantinaTiaTay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CantinaTiaTayApplicationTests" />
+        <item itemvalue="Spring Boot.CantinaTiaTayApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -128,24 +119,27 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3712a825-5489-4f96-8abd-7f0312c4a458" name="Changes" comment="" />
-      <created>1719017484248</created>
+      <changelist id="76fad91b-e641-4b7a-a683-61b4823d75df" name="Changes" comment="" />
+      <created>1719071525225</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1719017484248</updated>
-      <workItem from="1719017488588" duration="408000" />
-      <workItem from="1719057116777" duration="1344000" />
+      <updated>1719071525225</updated>
+      <workItem from="1719071527087" duration="7141000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

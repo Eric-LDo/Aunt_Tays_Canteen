@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="IU-241.15989.150">
+    <data-source name="taysDB@ERIC" uuid="b6f0bd3e-4197-4ab7-b5db-93e1a1efdbc5">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MSSQL" />
+      <user-name>CadastroCarros</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="database" negative="1" />
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="cantina_da_Tay@DESKTOP-5RIP64E" uuid="72965b2a-5d5a-4afd-a5c9-e03132f0ebcb">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MSSQL" />
+      <user-name>UsuarioInter</user-name>
+      <schema-mapping />
+    </data-source>
+    <data-source name="cantina_da_Tay@ERIC" uuid="83d43b4b-e82f-4aff-b2a9-afb09961b8a6">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MSSQL" />
+      <user-name>CadastroCarros</user-name>
+      <schema-mapping />
+    </data-source>
+  </component>
+</project>
