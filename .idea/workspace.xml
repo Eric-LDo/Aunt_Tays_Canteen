@@ -5,19 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76fad91b-e641-4b7a-a683-61b4823d75df" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Aunt_Tays_Canteen.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/cantinaTiaTay/src/main/resources/META-INF/additional-spring-configuration-metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b6f0bd3e-4197-4ab7-b5db-93e1a1efdbc5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b6f0bd3e-4197-4ab7-b5db-93e1a1efdbc5.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/cantinaTiaTay/src/main/java/com/example/cantinaTiaTay/repositories/ItensPedidosRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/cantinaTiaTay/src/main/java/com/example/cantinaTiaTay/repositories/ItensPedidosRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/cantinaTiaTay/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/cantinaTiaTay/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/cantinaTiaTay/src/main/java/com/example/cantinaTiaTay/dtos/ClientesRecordDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/cantinaTiaTay/src/main/java/com/example/cantinaTiaTay/dtos/ClientesRecordDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qodana.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +33,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "HTTP Request.generated-requests | #6.executor": "Run",
     "JUnit.CantinaTiaTayApplicationTests.executor": "Run",
     "Maven.cantinaTiaTay [clean].executor": "Run",
     "Maven.cantinaTiaTay [install].executor": "Run",
@@ -72,7 +64,10 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CantinaTiaTayApplicationTests">
+  <component name="RunManager" selected="Spring Boot.CantinaTiaTayApplication">
+    <configuration name="generated-requests | #6" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="6" requestIdentifier="#6" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="CantinaTiaTayApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cantinaTiaTay" />
       <extension name="coverage">
@@ -103,8 +98,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CantinaTiaTayApplicationTests" />
         <item itemvalue="Spring Boot.CantinaTiaTayApplication" />
+        <item itemvalue="HTTP Request.generated-requests | #6" />
+        <item itemvalue="JUnit.CantinaTiaTayApplicationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -141,5 +137,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/backend/cantinaTiaTay/src/main/java/com/example/cantinaTiaTay/controllers/ProdutosController.java</url>
+          <line>26</line>
+          <properties class="com.example.cantinaTiaTay.controllers.ProdutosController" method="saveProdutos">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

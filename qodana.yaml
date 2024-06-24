@@ -29,3 +29,10 @@ projectJDK: 22 #(Applied in CI/CD pipeline)
 
 #Specify Qodana linter for analysis (Applied in CI/CD pipeline)
 linter: jetbrains/qodana-jvm:latest
+
+server:
+  servlet:
+    encoding:
+      charset: UTF-8
+      force: true
+
