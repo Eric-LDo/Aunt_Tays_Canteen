@@ -17,24 +17,26 @@ import java.util.List;
 import java.util.Optional;
 
 @Controller
+@RequestMapping("/itensPedidos")
+@CrossOrigin(origins = "http://localhost:5174")
 public class ItensPedidosController {
 
     @Autowired
     ItensPedidosRepository itensPedidosRepository;
 
-    @PostMapping("/itensPedidos")
+    @PostMapping("")
     public ResponseEntity<ItensPedidos> saveItensPedidos(@RequestBody @Valid ItensPedidosRecordDto itensPedidosRecordDto){
         var itensPedidos = new ItensPedidos();
         BeanUtils.copyProperties(itensPedidosRecordDto, itensPedidos);
         return ResponseEntity.status(HttpStatus.CREATED).body(itensPedidosRepository.save(itensPedidos));
     }
 
-    @GetMapping("/itensPedidos")
+    @GetMapping("")
     public ResponseEntity<List<ItensPedidos>> getAllItensPedidos(){
         return ResponseEntity.status(HttpStatus.OK).body(itensPedidosRepository.findAll());
     }
 
-    @PutMapping("/itensPedidos/{id}")
+    @PutMapping("/{id}")
     public ResponseEntity<Object> updateItensPedidos(@PathVariable(value ="id") Integer id,
                                                  @RequestBody @Valid ItensPedidosRecordDto itensPedidosRecordDto) {
         Optional<ItensPedidos> itensPedidosO = itensPedidosRepository.findById(id);
@@ -46,7 +48,7 @@ public class ItensPedidosController {
         return ResponseEntity.status(HttpStatus.OK).body(itensPedidosRepository.save(itensPedidos));
     }
 
-    @DeleteMapping("/itensPedidos/{id}")
+    @DeleteMapping("/{id}")
     public ResponseEntity<Object> deleteItensPedidos(@PathVariable(value ="id") Integer id) {
         Optional<ItensPedidos> itensPedidosO = itensPedidosRepository.findById(id);
         if (itensPedidosO.isEmpty()) {

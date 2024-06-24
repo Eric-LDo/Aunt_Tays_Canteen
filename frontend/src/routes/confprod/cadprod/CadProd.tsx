@@ -35,7 +35,6 @@ export default function CadProd() {
         try {
             const response = await fetch('http://localhost:8080/produtos', {
                 method: "POST",
-                mode: 'no-cors',
                 headers: {
                     'Content-Type': 'application/json',
                     'Accept': 'application/json'

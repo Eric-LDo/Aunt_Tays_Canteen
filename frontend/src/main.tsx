@@ -9,6 +9,7 @@ import AlterPage from './routes/alterpage/alterpage.tsx'
 import HomeFunc from './routes/homefunc/homefunc.tsx'
 import VerPedidos from "./routes/verpedidos/verPedidos.tsx"
 import ConfFunc from './routes/conffunc/ConfFunc.tsx'
+import ConfProd from "./routes/confprod/confProd.tsx";
 
 const router = createBrowserRouter([
   {
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
   {
     path:"confFunc",
     element:<ConfFunc/>
+  },
+  {
+    path:"confProd",
+    element:<ConfProd />
   }
 
 ])

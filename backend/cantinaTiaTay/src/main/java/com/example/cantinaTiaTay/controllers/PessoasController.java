@@ -22,24 +22,26 @@ import java.util.Optional;
 import static org.springframework.data.jpa.domain.AbstractPersistable_.id;
 
 @Controller
+@RequestMapping("/pessoas")
+@CrossOrigin(origins = "http://localhost:5174")
 public class PessoasController {
 
     @Autowired
     PessoasRepository pessoasRepository;
 
-    @PostMapping("/pessoas")
+    @PostMapping
     public ResponseEntity<Pessoas> savePessoas(@RequestBody @Valid PessoasRecordDto pessoasRecordDto){
         var pessoas = new Pessoas();
         BeanUtils.copyProperties(pessoasRecordDto, pessoas);
         return ResponseEntity.status(HttpStatus.CREATED).body(pessoasRepository.save(pessoas));
     }
 
-    @GetMapping("/pessoas")
+    @GetMapping
     public ResponseEntity<List<Pessoas>> getAllPessoas(){
         return ResponseEntity.status(HttpStatus.OK).body(pessoasRepository.findAll());
     }
 
-    @PutMapping("/pessoas/{id}")
+    @PutMapping("/{id}")
     public ResponseEntity<Object> updatePessoas(@PathVariable(value ="id") int idPessoas,
                                                  @RequestBody @Valid PessoasRecordDto pessoasRecordDto) {
         Optional<Pessoas> pessoa0 = pessoasRepository.findById(idPessoas);
@@ -51,7 +53,7 @@ public class PessoasController {
         return ResponseEntity.status(HttpStatus.OK).body(pessoasRepository.save(pessoas));
     }
 
-    @DeleteMapping("/pessoas/{id}")
+    @DeleteMapping("/{id}")
     public ResponseEntity<Object> deletePessoas(@PathVariable(value ="id") int idPessoas) {
         Optional<Pessoas> pessoasO = pessoasRepository.findById(idPessoas);
         if (pessoasO.isEmpty()) {

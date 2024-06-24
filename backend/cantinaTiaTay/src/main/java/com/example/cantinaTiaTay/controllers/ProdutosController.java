@@ -18,24 +18,26 @@ import java.util.List;
 import java.util.Optional;
 
 @Controller
+@RequestMapping("/produtos")
+@CrossOrigin(origins = "http://localhost:5174")
 public class ProdutosController {
 
     @Autowired
     ProdutosRepository produtosRepository;
 
-    @PostMapping("/produtos")
+    @PostMapping
     public ResponseEntity<Produtos> saveProdutos(@RequestBody @Valid ProdutosRecordDto produtosRecordDto){
         var produtos = new Produtos();
         BeanUtils.copyProperties(produtosRecordDto, produtos);
         return ResponseEntity.status(HttpStatus.CREATED).body(produtosRepository.save(produtos));
     }
 
-    @GetMapping("/produtos")
+    @GetMapping
     public ResponseEntity<List<Produtos>> getAllProdutos(){
         return ResponseEntity.status(HttpStatus.OK).body(produtosRepository.findAll());
     }
 
-    @PutMapping("/produtos/{id}")
+    @PutMapping("/{id}")
     public ResponseEntity<Object> updateProdutos(@PathVariable(value ="id") int id,
                                                  @RequestBody @Valid ProdutosRecordDto produtosRecordDto) {
         Optional<Produtos> produtoO = produtosRepository.findById(id);
@@ -47,7 +49,7 @@ public class ProdutosController {
         return ResponseEntity.status(HttpStatus.OK).body(produtosRepository.save(produtos));
     }
 
-    @DeleteMapping("/produtos/{id}")
+    @DeleteMapping("/{id}")
     public ResponseEntity<Object> deleteProdutos(@PathVariable(value ="id") int id) {
         Optional<Produtos> produtoO = produtosRepository.findById(id);
         if (produtoO.isEmpty()) {

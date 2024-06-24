@@ -5,10 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76fad91b-e641-4b7a-a683-61b4823d75df" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b6f0bd3e-4197-4ab7-b5db-93e1a1efdbc5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b6f0bd3e-4197-4ab7-b5db-93e1a1efdbc5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/cantinaTiaTay/src/main/java/com/example/cantinaTiaTay/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/cantinaTiaTay/src/main/java/com/example/cantinaTiaTay/dtos/ClientesRecordDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/cantinaTiaTay/src/main/java/com/example/cantinaTiaTay/dtos/ClientesRecordDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qodana.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/cantinaTiaTay/src/main/java/com/example/cantinaTiaTay/controllers/ClientesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/cantinaTiaTay/src/main/java/com/example/cantinaTiaTay/controllers/ClientesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/cantinaTiaTay/src/main/java/com/example/cantinaTiaTay/controllers/FuncionarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/cantinaTiaTay/src/main/java/com/example/cantinaTiaTay/controllers/FuncionarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/cantinaTiaTay/src/main/java/com/example/cantinaTiaTay/controllers/ItensPedidosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/cantinaTiaTay/src/main/java/com/example/cantinaTiaTay/controllers/ItensPedidosController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/cantinaTiaTay/src/main/java/com/example/cantinaTiaTay/controllers/PedidosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/cantinaTiaTay/src/main/java/com/example/cantinaTiaTay/controllers/PedidosController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/cantinaTiaTay/src/main/java/com/example/cantinaTiaTay/controllers/PessoasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/cantinaTiaTay/src/main/java/com/example/cantinaTiaTay/controllers/PessoasController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/cantinaTiaTay/src/main/java/com/example/cantinaTiaTay/controllers/ProdutosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/cantinaTiaTay/src/main/java/com/example/cantinaTiaTay/controllers/ProdutosController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/routes/confprod copy/cadprod/CadProd.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/routes/confprod copy/cadprod/CadProd.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/routes/confprod copy/confProd.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/routes/confprod copy/confProd.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/routes/confprod/cadprod/CadProd.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/routes/confprod/cadprod/CadProd.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/routes/confprod/confProd.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/routes/confprod/confProd.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +29,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,6 +74,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "ts.external.directory.path": "C:\\Users\\Eric\\OneDrive - Academico - Secretaria do Estado da Educação de São Paulo\\Documentos\\GitHub\\Aunt_Tays_Canteen\\frontend\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -137,20 +157,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/backend/cantinaTiaTay/src/main/java/com/example/cantinaTiaTay/controllers/ProdutosController.java</url>
-          <line>26</line>
-          <properties class="com.example.cantinaTiaTay.controllers.ProdutosController" method="saveProdutos">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

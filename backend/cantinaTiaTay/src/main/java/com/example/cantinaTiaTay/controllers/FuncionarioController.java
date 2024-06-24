@@ -16,6 +16,7 @@ import java.util.Optional;
 
 @Controller
 @RequestMapping("/funcionario")
+@CrossOrigin(origins = "http://localhost:5174")
 public class FuncionarioController {
 
     @Autowired

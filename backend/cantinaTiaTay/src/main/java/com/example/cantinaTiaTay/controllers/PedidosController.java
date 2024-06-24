@@ -18,24 +18,26 @@ import java.util.List;
 import java.util.Optional;
 
 @Controller
+@RequestMapping("/pedidos")
+@CrossOrigin(origins = "http://localhost:5174")
 public class PedidosController {
 
     @Autowired
     PedidosRepository pedidosRepository;
 
-    @PostMapping("/pedidos")
+    @PostMapping
     public ResponseEntity<Pedidos> savePedidos(@RequestBody @Valid PedidosRecordDto pedidosRecordDto){
         var pedidos = new Pedidos();
         BeanUtils.copyProperties(pedidosRecordDto, pedidos);
         return ResponseEntity.status(HttpStatus.CREATED).body(pedidosRepository.save(pedidos));
     }
 
-    @GetMapping("/pedidos")
+    @GetMapping
     public ResponseEntity<List<Pedidos>> getAllPedidos(){
         return ResponseEntity.status(HttpStatus.OK).body(pedidosRepository.findAll());
     }
 
-    @PutMapping("/pedidos/{id}")
+    @PutMapping("/{id}")
     public ResponseEntity<Object> updatePedidos(@PathVariable(value ="id") Integer idPedido,
                                                      @RequestBody @Valid PedidosRecordDto pedidosRecordDto) {
         Optional<Pedidos> pedidosO = pedidosRepository.findById(idPedido);
@@ -47,7 +49,7 @@ public class PedidosController {
         return ResponseEntity.status(HttpStatus.OK).body(pedidosRepository.save(pedidos));
     }
 
-    @DeleteMapping("/pedido/{id}")
+    @DeleteMapping("/{id}")
     public ResponseEntity<Object> deletePedidos(@PathVariable(value ="id") Integer idPedido) {
         Optional<Pedidos> pedidosO = pedidosRepository.findById(idPedido);
         if (pedidosO.isEmpty()) {
