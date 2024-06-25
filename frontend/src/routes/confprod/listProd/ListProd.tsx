@@ -2,8 +2,6 @@ import './ListProd.css'
 import {useState} from "react";
 import Prod from "./prod/Prod";
 
-import ProdutoMenu from "../../../components/produtoMenu/produtoMenu.tsx";
-
 
 export default function ListProd(){
 const [Prods, setProds] = useState([])
