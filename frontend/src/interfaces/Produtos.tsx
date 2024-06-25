@@ -5,5 +5,5 @@ export default interface Produtos{
     ingredientes:string;
     descricao:string;
     preco: number;
-    imgem:string;
+    img:string;
 }
