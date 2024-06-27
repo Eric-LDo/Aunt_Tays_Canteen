@@ -1,13 +1,13 @@
 
-import { useState } from "react"
-import Pedidos from "../../../conection/Pedidos.json"
-import './MainVPedidos.css'
-import MiniMenu from "./minimenu/MiniMenu"
+// import { useState } from "react"
+// import Pedidos from "../../../conection/Pedidos.json"
+// import './MainVPedidos.css'
+// import MiniMenu from "./minimenu/MiniMenu"
 export default function MainVPedidos(){
     
     return(
         <div className="container">
-            <h1>Ver Pedidos</h1>
+            {/* <h1>Ver Pedidos</h1>
             <ul>
                 {Pedidos.map((p)=>{
                     // eslint-disable-next-line react-hooks/rules-of-hooks
@@ -35,7 +35,7 @@ export default function MainVPedidos(){
                     </div>
                     </li>
                 })}
-            </ul>
+            </ul> */}
 
         </div>
     )

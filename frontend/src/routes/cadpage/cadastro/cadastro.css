@@ -14,12 +14,12 @@ form label{
 .viwpassword{
     width: 20px;
     height: 20px;
-    
     background-size: cover;
+    transition: all 0.5s;
 }
 
 .pshiden{
-    background-image: url("../../../image/incons/icons8-ocultar-100.png");
+    background-image: url("../../../../image/incons/icons8-visível-100.png");
 }
 .psshow{
     background-image: url("../../../image/incons/icons8-ocultar-100.png");
