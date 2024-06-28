@@ -27,7 +27,7 @@ const TelaLogin = ({ onClosed }: Props) => {
 
             if (cliente) {
                 setUser({ ...cliente, role: 'cliente' });
-                navigate('/');
+                navigate('/menu');
                 return;
             }
 

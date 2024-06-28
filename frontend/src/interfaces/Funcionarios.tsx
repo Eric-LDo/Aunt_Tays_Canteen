@@ -1,8 +1,9 @@
 export default interface Funcionarios{
-    id:number;
+    idPessoa:number;
     nome:string;
     email:string;
     telefone:string;
+    senha:string;
     cargo:string;
     permissaoLevel:number
 }

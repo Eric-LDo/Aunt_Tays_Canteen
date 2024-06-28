@@ -12,6 +12,7 @@ import ConfFunc from './routes/conffunc/ConfFunc';
 import ConfProd from "./routes/confprod/confProd";
 import { UserProvider } from './contexts/UserContext';
 import AlterarPerfil from './routes/alterarperfil/AlterarPerfil';
+import AlterPerfilFunc from './routes/alterperfilfunc/AlterPerfilFunc';
 
 const router = createBrowserRouter([
   {
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
   {
     path: "alterarperfil",
     element: <AlterarPerfil />
+  },
+  {
+    path: "alterperfilfunc",
+    element: <AlterPerfilFunc />
   }
 ]);
 

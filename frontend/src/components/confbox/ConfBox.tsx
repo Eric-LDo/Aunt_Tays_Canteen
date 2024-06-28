@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import ButtonMenu from '../buttonMenu/buttonMenu';
 import Closed from '../closed/closed';
-import './confBox.css';
+import './ConfBox.css';
 interface Props{
     disp:boolean,
     nome:string,
