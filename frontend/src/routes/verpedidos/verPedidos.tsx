@@ -1,9 +1,10 @@
-import Header from "../../components/header/header";
+import './verPedidos.css'
+import HeaderFunc from "../../components/headerfunc/HeaderFunc";
 // import MainVPedidos from "./mainvpedidos/MainVPedidos"
 export default function VerPedidos(){
     return (
         <>
-            <Header
+            <HeaderFunc
             logoURL={''}
             />
             {/* <MainVPedidos/> */}

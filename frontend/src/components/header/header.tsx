@@ -1,5 +1,5 @@
 import './header.css'
-
+import { useUser} from '../../contexts/UserContext'
 import TelaLogin  from '../../components/telalogin/telaLogin'
 import BagBox from './bagBox/bagBox';
 import ConfigBox from './configbox/configBox';
@@ -8,6 +8,7 @@ interface Props{
     logoURL: string,
 }
 function Header({logoURL}:Props){
+    const {user} = useUser();
     const [loginVisible, setLoginVisible] = useState(false)
     function isLoginV(){
         setLoginVisible(!loginVisible)
@@ -27,10 +28,14 @@ function Header({logoURL}:Props){
         <>
         <header>
             <div className="box box1">
-                <img className="icone linki" onClick={isLoginV} src="../../../image/incons/entrar.png" alt="entrar"  />
-                {loginVisible?<TelaLogin
-                onClosed={isLoginV}
-                />:null}
+                {
+                user === null?<img className="icone linki" onClick={isLoginV} src="../../../image/incons/entrar.png" alt="entrar"  />
+                :<a href="/alterarperfil"><img className="icone linki"  src="../../../image/incons/icons8-user-menu-female-100.png" alt="entrar"/></a>
+                }
+                {loginVisible?
+                <TelaLogin
+                onClosed={isLoginV}/>:null
+                }
             </div>
             <div className="box box2">
                 <a href="/">

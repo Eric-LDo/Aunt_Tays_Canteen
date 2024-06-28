@@ -5,31 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76fad91b-e641-4b7a-a683-61b4823d75df" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/routes/conffunc/cffucmain/CFuncMain.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/routes/conffunc/cffucmain/CFuncMain.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/routes/conffunc/cffucmain/cadfunc/CadFunc.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/routes/conffunc/cffucmain/cadfunc/CadFunc.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/image/incons/icons8-visível-100.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/image/incons/icons8-visível-100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/backend/cantinaTiaTay/HELP.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/backend/cantinaTiaTay/target/cantinaTiaTay-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/backend/cantinaTiaTay/target/cantinaTiaTay-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/backend/cantinaTiaTay/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/backend/cantinaTiaTay/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/backend/cantinaTiaTay/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/backend/cantinaTiaTay/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/backend/cantinaTiaTay/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/backend/cantinaTiaTay/target/surefire-reports/TEST-com.example.cantinaTiaTay.CantinaTiaTayApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/backend/cantinaTiaTay/target/surefire-reports/com.example.cantinaTiaTay.CantinaTiaTayApplicationTests.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/backend/cantinaTiaTay/target/test-classes/com/example/cantinaTiaTay/CantinaTiaTayApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/routes/cadpage/cadastro/cadastro.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/routes/cadpage/cadastro/cadastro.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/routes/conffunc/ConfFunc.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/routes/conffunc/ConfFunc.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/routes/conffunc/ConfFunc.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/routes/conffunc/ConfFunc.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/header/configbox/configBox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/header/configbox/configBox.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/header/header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/telalogin/telaLogin.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/telalogin/telaLogin.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/interfaces/Clientes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/interfaces/Clientes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/routes/alterpage/alterprofile/alterprofile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/routes/alterpage/alterprofile/alterprofile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/routes/cadpage/cadastro/cadastro.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/routes/cadpage/cadastro/cadastro.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/routes/verpedidos/verPedidos.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/routes/verpedidos/verPedidos.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +143,7 @@
       <workItem from="1719071527087" duration="7141000" />
       <workItem from="1719282718622" duration="7955000" />
       <workItem from="1719357519140" duration="6248000" />
-      <workItem from="1719491326960" duration="1751000" />
+      <workItem from="1719491326960" duration="2360000" />
     </task>
     <servers />
   </component>

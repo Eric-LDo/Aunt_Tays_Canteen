@@ -1,4 +1,4 @@
-import ButtonMenu from '../buttonMenu/buttonMenu';
+import ButtonMenu from '../../../../components/buttonMenu/buttonMenu';
 import './section.css';
 interface Props{
     titulo: string,
@@ -23,7 +23,9 @@ function Sections({titulo, texto1, texto2,texto3, sub1,sub2,sub3}:Props){
 
                 <h2>{sub3}</h2>
                 <p>{texto3}</p>
-                    <ButtonMenu buttonName='Find Your Brownies'/>
+                    <a href="/menu">
+                        <ButtonMenu buttonName='Find Your Brownies'/>
+                    </a>
             </section> 
         </>
     )

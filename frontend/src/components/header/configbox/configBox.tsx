@@ -1,5 +1,10 @@
 import "./configBox.css"
+import {useUser} from "../../../contexts/UserContext"
 const ConfigBox = ()=>{
+    const {setUser} = useUser()
+    const sair=()=>{
+        setUser(null)
+    }
     return (
         <div className="configContainer">
             <nav>
@@ -7,7 +12,7 @@ const ConfigBox = ()=>{
                     <li><a className="conf" href="/">Home</a></li>
                     <li><a className="conf" href="#">Editar perfil</a></li>
                     <li><a className="conf" href="#">Ver meus pedidos</a></li>
-                    <li><a className="conf" href="#">Sair</a></li>
+                    <li><a className="conf" href="/" onClick={sair}>Sair</a></li>
                 </ul>
             </nav>
 

@@ -1,5 +1,5 @@
 import './tagMain.css'
-import Sections from "../section/sections";
+import Sections from './section/sections'
 export default function TagMain(){
     return(
         <main className="tagMain">

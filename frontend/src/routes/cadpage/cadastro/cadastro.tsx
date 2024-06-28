@@ -107,8 +107,7 @@ export default function Cadastro() {
                         type="text"
                         value={telefone}
                         onChange={(e) => setTelefone(e.target.value)}
-                        required
-                        
+                        required 
                     />
                 </label>
                 <br />

@@ -1,6 +1,6 @@
 import './pagehome.css'
 import Header from '../../components/header/header';
-import TagMain from '../../components/tagmain/tagMain';
+import TagMain from './tagmain/tagMain';
 
 
 
@@ -11,7 +11,7 @@ export default function PageHome(){
         
             <TagMain/>
                 
-            {/* <Footer/> */}
+            
         </div>
     )
 }   

@@ -1,5 +1,5 @@
 import { useState } from "react"
-import Endereco from "../../../components/endereco/endereco"
+
 
 export default function AlterProfile(){
     const [hiden, setHiden] = useState(true)
@@ -27,7 +27,7 @@ export default function AlterProfile(){
                     <input type={hiden? 'password':'text'} />
                 </label>
                 <br />
-                <label htmlFor=""><Endereco/>
+                <label htmlFor="">
                 </label>
 
                 
