@@ -1,24 +1,19 @@
-
-.container{
+.menuprodbox{
     display: flex;
-    flex-direction: row;
-    justify-content:start;
+    justify-content: center;
     align-items: center;
-    width: 700px;
-    margin: 15px auto;
-    border: 1px solid #ccc;
-    border-radius: 15px;
+    height: 200px;
+    width: 30vw;
     box-shadow: var(--box-shadow-default);
-    background-color: var(--color-text);
-  
+    padding:40px;
+    margin: 10px;
+    border-radius: 10px;
 }
 .produtoAmostra{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    margin: 20px;
-}
-.container h2,
-.container p{
-    color: black;
+    box-shadow: var(--box-shadow-default);
+    margin: 10px;
+
 }

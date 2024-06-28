@@ -12,11 +12,26 @@
   /* font-family:'Monomaniac One'; */
   
 }
-
 body{
+  display: flex;
   flex-direction: column;
-  height: auto;
+  align-items: center;
+  background-image: url('../image/browniesFundo.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  z-index: -2;
 }
+body::before {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
 li{
   list-style: none;
 }
@@ -25,3 +40,24 @@ li{
   transform: scale(1.1);
   cursor: pointer;
 }
+.page{
+  width: 100vw;
+  position: absolute;
+  top:0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color-text);
+  width: 85vw;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: var(--box-shadow-default);
+  margin-top: 140px;
+}
+

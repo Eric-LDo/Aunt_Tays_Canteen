@@ -12,7 +12,7 @@ interface Props{
 function Sections({titulo, texto1, texto2,texto3, sub1,sub2,sub3}:Props){
     return(
         <>
-            <section>
+            <section className='sectionsec'>
                 <h1>{titulo}</h1>
 
                 <h2>{sub1}</h2>

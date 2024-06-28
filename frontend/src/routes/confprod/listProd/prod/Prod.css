@@ -1,0 +1,18 @@
+.confprodbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 30vw;
+    box-shadow: var(--box-shadow-default);
+    padding:40px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.prodBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

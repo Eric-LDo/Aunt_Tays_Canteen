@@ -1,9 +1,0 @@
-.pagehome{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-image: url(../image/browniesFundo.jpg) ;
-    height: 100vh;
-    background-size: cover;
-    
-}

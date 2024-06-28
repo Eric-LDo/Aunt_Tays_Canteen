@@ -25,31 +25,38 @@ export default function Prod({id, nome, ingredientes, descricao,preco, img }:Pro
     }
 
     return(
-        <div className="produtobox">
-            <h2>
-                {nome}
-            </h2>
-            <img src={img} className="imgprod"/>
-            <p>{"identificador" + id}</p>
-            <p>
-                {"Igredientes:"+ingredientes}
-            </p>
-            <p>
-                {descricao}
-            </p>
-            <p>{preco}</p>
-            <button onClick={deletaContato}>
-                Deletar
-            </button>
-            <button onClick={toggleEditor}>editar</button>
-            {edicao?<EditProd
-            id={id}
-            nome={nome}
-            ingredientes={ingredientes}
-            descricao={descricao}
-            preco={preco}
-            img={img}
-            />:null}
+        <div className="confprodbox" id="">
+            <div className='prodBox'>
+                
+                <img src={img} className="produtoAmostra"/>
+                <div>
+                    <h2>
+                        {nome}
+                    </h2>
+                    <p>{"identificador" + id}</p>
+                    <p>
+                        {"Igredientes:"+ingredientes}
+                    </p>
+                    <p>
+                        {descricao}
+                    </p>
+                    <p>{preco}</p>
+                </div>
+            </div>
+            <div>
+                <button onClick={deletaContato}>
+                    Deletar
+                </button>
+                <button onClick={toggleEditor}>editar</button>
+                {edicao?<EditProd
+                id={id}
+                nome={nome}
+                ingredientes={ingredientes}
+                descricao={descricao}
+                preco={preco}
+                img={img}
+                />:null}
+            </div>
         </div>
     )
 }

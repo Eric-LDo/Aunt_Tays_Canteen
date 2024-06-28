@@ -108,9 +108,9 @@ export default function AlterarPerfilFuncionario() {
   };
   console.log(funcionarios)
   return (
-    <div className="editar">
+    <div className="container">
       <HeaderFunc logoURL={''} />
-      <div className="container">
+      <div className="secao">
         <h1>Editar Perfil</h1>
         <form onSubmit={handleSubmit}>
           <label>

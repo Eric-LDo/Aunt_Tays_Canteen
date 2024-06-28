@@ -5,14 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76fad91b-e641-4b7a-a683-61b4823d75df" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/header/configbox/configBox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/header/configbox/configBox.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/header/header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/telalogin/telaLogin.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/telalogin/telaLogin.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/interfaces/Clientes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/interfaces/Clientes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/confbox/ConfBox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/confbox/ConfBox.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/header/bagBox/bagBox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/header/bagBox/bagBox.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/header/bagBox/produBag/produBag.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/header/bagBox/produBag/produBag.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/produtoMenu/produtoMenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/produtoMenu/produtoMenu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/produtoMenu/produtoMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/produtoMenu/produtoMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/interfaces/Pedido.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/interfaces/Pedido.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/routes/alterpage/alterprofile/alterprofile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/routes/alterpage/alterprofile/alterprofile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/routes/alterpage/alterpage.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/routes/alterpage/alterpage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/routes/alterpage/alterpage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/routes/alterpage/alterpage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/routes/alterperfilfunc/AlterPerfilFunc.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/routes/alterperfilfunc/AlterPerfilFunc.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/routes/cadpage/cadastro/cadastro.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/routes/cadpage/cadastro/cadastro.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/routes/verpedidos/verPedidos.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/routes/verpedidos/verPedidos.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/routes/cadpage/cadpage.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/routes/cadpage/cadpage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/routes/cadpage/cadpage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/routes/cadpage/cadpage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/routes/conffunc/cffucmain/CFuncMain.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/routes/conffunc/cffucmain/CFuncMain.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/routes/confprod/cadprod/CadProd.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/routes/confprod/cadprod/CadProd.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/routes/confprod/cadprod/CadProd.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/routes/confprod/cadprod/CadProd.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/routes/confprod/listProd/prod/Prod.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/routes/confprod/listProd/prod/Prod.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/routes/confprod/listProd/prod/Prod.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/routes/confprod/listProd/prod/Prod.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/routes/homefunc/homefunc.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/routes/homefunc/homefunc.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/routes/menupage/mainMenu/mainMenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/routes/menupage/mainMenu/mainMenu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/routes/menupage/mainMenu/mainMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/routes/menupage/mainMenu/mainMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/routes/menupage/manuPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/routes/menupage/manuPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/routes/menupage/menuPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/routes/menupage/menuPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/routes/pagehome/pagehome.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/routes/pagehome/pagehome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/routes/pagehome/pagehome.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/routes/pagehome/pagehome.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/routes/pagehome/tagmain/section/section.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/routes/pagehome/tagmain/section/sections.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/routes/pagehome/tagmain/tagMain.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/routes/pagehome/tagmain/tagMain.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/routes/verpedidos/mainvpedidos/MainVPedidos.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/routes/verpedidos/mainvpedidos/MainVPedidos.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/routes/verpedidos/mainvpedidos/minimenu/MiniMenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/routes/verpedidos/mainvpedidos/minimenu/MiniMenu.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +168,7 @@
       <workItem from="1719071527087" duration="7141000" />
       <workItem from="1719282718622" duration="7955000" />
       <workItem from="1719357519140" duration="6248000" />
-      <workItem from="1719491326960" duration="2360000" />
+      <workItem from="1719491326960" duration="6956000" />
     </task>
     <servers />
   </component>

@@ -13,6 +13,7 @@ import ConfProd from "./routes/confprod/confProd";
 import { UserProvider } from './contexts/UserContext';
 import AlterarPerfil from './routes/alterarperfil/AlterarPerfil';
 import AlterPerfilFunc from './routes/alterperfilfunc/AlterPerfilFunc';
+import { PedidosProvider } from './contexts/PedidosContext';
 
 const router = createBrowserRouter([
   {
@@ -60,7 +61,9 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <UserProvider>
-      <RouterProvider router={router} />
+      <PedidosProvider>
+        <RouterProvider router={router} />
+      </PedidosProvider>
     </UserProvider>
   </React.StrictMode>
 );

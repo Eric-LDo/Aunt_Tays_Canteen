@@ -1,37 +1,23 @@
-section{
-    background-color: rgba(0, 0, 0, 0.651);
-    width: 80%;
-    height: max-content;
-    border-radius: 5px;
+.sectionsec{
+    background-color: #000000a0;
+    margin-top: 140px;
+    padding: 70px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-self: center;
     align-items: center;
-    z-index: 0;
-    margin: 40px;
 }
-section h1,
-section p{
-    color: #efefef;
-    
-}
-
-section h1{
-    text-align: center;
-    width: 80%;
-    font-size: 300%;  
-    border-bottom: 3px solid var(--color-text);
-    margin: 20px;
-}
-h2{
-    font-size: 200%;
+.sectionsec h2,
+.sectionsec p,
+.sectionsec h1{
     color: var(--color-text);
 }
-
-section p{
-    
-    font-size: 150%;
-    
-    margin: 40px;
-
+.sectionsec h1{
+    font-size: 70px;
+}
+.sectionsec h2{
+    font-size: 40px;
+}
+.sectionsec p{
+    font-size: 20px;
 }

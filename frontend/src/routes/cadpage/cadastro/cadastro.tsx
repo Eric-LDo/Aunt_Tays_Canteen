@@ -88,7 +88,7 @@ export default function Cadastro() {
     };
 
     return (
-        <div className="cadastro">
+        <div className="container">
             <h1>Cadastro de Cliente</h1>
             <form onSubmit={handleSubmit}>
                 <label>

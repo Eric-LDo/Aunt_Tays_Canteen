@@ -23,7 +23,7 @@ export default function produtoMenu({ id, nome, ingredientes, descricao, preco,i
   
   return(
     <>
-      <div key={id} className="container" onClick={toggleVisibility}>
+      <div key={id} className="menuprodbox" onClick={toggleVisibility}>
         <img className='produtoAmostra' src={imagem} alt="" />
         <div className="descricao">
           <h2>{nome}</h2>
@@ -34,7 +34,7 @@ export default function produtoMenu({ id, nome, ingredientes, descricao, preco,i
       </div>
       <div className='boxConfiguration' style={{display: isVisible? 'block': 'none'}}>
           <ConfBox
-            disp={isVisible}
+            disp={toggleVisibility}
             id={id}
             nome={nome}
             ingredientes={ingredientes}

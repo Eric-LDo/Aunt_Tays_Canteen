@@ -1,8 +1,0 @@
-.tagMain{
-    width: 100%;
-    height: calc(100vh - 280px);
-    margin-top:min(140px);
-    display: flex;
-    justify-content: center;
-    
-}

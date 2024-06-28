@@ -1,8 +1,0 @@
-.alterpage{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url('../../../../image/browniesFundo.jpg') ;
-    background-size: cover;
-    justify-content: center;
-}
